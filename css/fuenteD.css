@@ -1,3 +1,25 @@
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
 }
+
+h1{
+    font-family: 'Allura';
+    font-size: 9em;
+    font-weight: 900;
+    color: azure;
+}
+
+/* allura-regular - latin */
+@font-face {
+    font-family: 'Allura';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/allura-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/allura-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
