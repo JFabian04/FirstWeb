@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:darkslategray
+}
+
+h1{
+    font-family: 'Digital';
+    font-size: 10em;
+    color: aliceblue;
+}
+
+/* allura-regular - latin */
+@font-face {
+    font-family: 'Digital';
+    font-weight: 10;
+    src: url('../fonts/digital-7\ \(italic\).ttf');
+    src: local(''),
+         url('../fonts/digital-7\ \(italic\).ttf') 
+         url('../fonts/digital-7\ \(mono\ italic\).ttf') 
+         url('../fonts/digital-7\ \(mono\ italic\).ttf') 
+         url('../fonts/digital-7\ \(mono\).ttf')
+  }
