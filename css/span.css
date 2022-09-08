@@ -1,0 +1,29 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name-style{
+    font-size: 2em;
+    color: black;
+}
+
+.text-style{
+    color:rgb(68, 68, 68, .8);
+}
+/* Clase de elemento*/
+h1{
+    color: rebeccapurple;
+}
+
+/* Clase atada */
+h2.name-style{
+    color: blueviolet;
+}
+/* Clase no atada */
+.no-atada{
+    color:darkslateblue;
+}
+
+#id-text{
+    color:firebrick;
+}
