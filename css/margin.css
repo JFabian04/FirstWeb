@@ -1,14 +1,44 @@
 .box {
     background-color: cadetblue;
     display: inline-block;
-    width: 300px;
-    height: 300px;
-    font-size: 1.3em;
-    text-align: center;
+    width: 230px;
+    height: 340px;
+    font-size: 0.9em;
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 6em 1em 10em 1em;
+    letter-spacing: .3em;
+    word-spacing: 0.5em;
+    line-height: 1.3em;
+    padding: 1em;
+    color: white;
+    
 }
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+.box1{
+    background-color: #1B4543;
+    border: 10px solid #246664;
+    text-align: left;
+
+}
+.box2{
+    background-color:#155034 ;
+    border: 10px Dotted#0A2A1C;
+    text-align: right;
+}
+.box3{
+    background-color: #2E2C5D;
+    border: 9px Dashed #1B1A35;
+    text-align: center;
+    
+}
+.box4{
+    background-color: #202334;
+    border: 10px Double lightblue;
+    text-align: justify;
+}
+.box5{
+    background-color: #7D37AB;
+    border: 10px Groove #545454;
+    text-indent: 2em;
 }
