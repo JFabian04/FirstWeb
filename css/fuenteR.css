@@ -1,15 +1,40 @@
-body{
+
+h1{
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color:darkslategray
-}
-
-h1{
+    height: 105vh;
+    background-color:darkslategray;
     font-family: 'Digital';
     font-size: 10em;
     color:aliceblue;
+    margin: -20px;
+    margin-top: -70px;
+}
+
+button >a{
+
+    padding: 1px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Digital';
+    font-size: 2.5em;
+}
+
+button{
+    height: 3em;
+    background-color: white;
+    border-radius: 7px;
+    border: transparent;
+}
+button >a:hover{
+    color: white    ;
+}
+
+button:hover{
+   
+    text-decoration: none;
+    background-color: darkslategray ;
 }
 
 /* allura-regular - latin */

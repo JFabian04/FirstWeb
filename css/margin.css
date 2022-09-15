@@ -1,8 +1,8 @@
 .box {
     background-color: cadetblue;
-    display: inline-block;
-    width: 230px;
-    height: 340px;
+    display: inline-flex;
+    width: 185px;
+    height: 370px;
     font-size: 0.9em;
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -12,10 +12,10 @@
     line-height: 1.3em;
     padding: 1em;
     color: white;
-    
 }
 
 .box1{
+
     background-color: #1B4543;
     border: 10px solid #246664;
     text-align: left;

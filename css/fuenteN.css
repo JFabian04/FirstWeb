@@ -1,12 +1,33 @@
-body{
+h1{
     background-color: rgb(24, 24, 24, .9);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-h1{
+    height:105vh;
+    margin: -20px;
+    margin-top: -56px;
     font-size: 9em;
     color: red;
     font-family: 'Bebas Neue', 'cursive';
+}
+button >a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    font-family: 'Bebas Neue', 'cursive';
+    font-size: 2em;
+    background-color: white;
+    border-radius: 7px;
+    border: transparent;
+}
+button >a:hover{
+    color: red;
+}
+
+button:hover{
+   
+    text-decoration: none;
+    background-color: black;
 }
