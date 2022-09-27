@@ -8,8 +8,8 @@
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    padding: 77px;
-    padding-top: 90px;
+    text-align: center;
+    padding-top: 86px;
     color: aliceblue;
 }
 
@@ -31,7 +31,6 @@ p {
 
 .aling {
     margin-left: 66vh;
-    margin-right: 3000px;
     display: inline-flex;
 }
 
