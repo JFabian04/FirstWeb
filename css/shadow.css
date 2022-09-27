@@ -1,27 +1,41 @@
-.box{
+.box {
     width: 300px;
     height: 300px;
+    margin: 10px;
 }
-.box-1{
+
+.box-1 {
+    margin-left: 85vh;
     background-color: brown;
 }
-.box2{
+
+.box2 {
     background-color: aquamarine;
-}.box3{
+}
+
+.box3 {
     background-color: rgb(255, 140, 0);
 }
-.aling{
+
+.aling {
+    margin-left: 66vh;
+    margin-right: 3000px;
     display: inline-flex;
 }
-.box4{
+
+.box4 {
     background-color: darkgreen;
 }
-.box5{
+
+.box5 {
     background-color: blue;
 }
-.box6{
+
+.box6 {
     background-color: blueviolet;
 }
-.ali{
-display: inline-flex;
+
+.ali {
+    margin-left: 50vh;
+    display: inline-flex;
 }
