@@ -1,6 +1,6 @@
 .box {
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     margin: 15px;
     border-radius: 8px;
 }
@@ -8,7 +8,8 @@
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    padding: 98px;
+    padding: 77px;
+    padding-top: 90px;
     color: aliceblue;
 }
 
