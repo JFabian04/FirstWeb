@@ -1,37 +1,50 @@
 .box {
     width: 300px;
     height: 300px;
-    margin: 10px;
+    margin: 15px;
+    border-radius: 8px;
 }
-
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 98px;
+    color: aliceblue;
+}
 .box-1 {
+    box-shadow: 21px 19px 10px rgb(92, 0, 0);
     margin-left: 85vh;
     background-color: brown;
 }
 
 .box2 {
-    background-color: aquamarine;
+    box-shadow: 21px 19px 10px rgb(0, 32, 22);
+    background-color: rgb(6, 102, 70);
 }
 
 .box3 {
-    background-color: rgb(255, 140, 0);
+    box-shadow: 21px 19px 10px rgb(150, 74, 3);
+    background-color: rgb(214, 119, 3);
 }
 
 .aling {
+   
     margin-left: 66vh;
     margin-right: 3000px;
     display: inline-flex;
 }
 
 .box4 {
-    background-color: darkgreen;
+    box-shadow: 21px 19px 10px rgb(14, 80, 30);
+    background-color: rgb(41, 129, 41);
 }
 
 .box5 {
-    background-color: blue;
+    box-shadow: 21px 19px 10px rgb(6, 0, 97);
+    background-color: rgb(24, 24, 170);
 }
 
 .box6 {
+    box-shadow: 21px 19px 10px rgb(67, 0, 99);
     background-color: blueviolet;
 }
 
