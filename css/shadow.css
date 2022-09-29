@@ -42,7 +42,7 @@ p {
     background-color: rgb(91, 36, 143);
 }
 
-.ali , .alin0 ,.aling {
+.aling {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,0 +1,36 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+th,td{
+    border:1px solid rgb(0, 0, 0);
+    padding: 8px 15px;   
+}
+thead{
+    background-color:rgb(168, 236, 236);
+}
+table{
+    
+    border-collapse:separate;
+}
+h1{
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+th:first-child { 
+    border-top-left-radius: 10px; 
+}
+th:last-child {   
+    border-top-right-radius: 10px; 
+}
+tr:last-child td:first-child { 
+    border-bottom-left-radius: 10px; 
+}
+tr:last-child td:last-child { 
+    border-bottom-right-radius: 10px; 
+}
+img{
+    width: 145px;
+}
