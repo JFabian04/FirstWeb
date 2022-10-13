@@ -10,34 +10,46 @@
 </head>
 
 <body>
+    <h1>Citas Médicas</h1>
+    <fieldset> <legend> Ingrese los datos de cita</legend>
+        <form>
+            <label>Ingrese el tipo de documento:</label>
+            <!-- Cuadro de selección -->
+            <select>
+                <option value="">Resgitro Civil</option>
+                <option value=""> Tarjeta de indentidad</option>
+                <option value="">Cedula extrajera</option>
+                <option value="">Cedula Ciudadanía</option>
+            </select>
+            
 
-    <h1>Citas medicas</h1>
+            <!-- Caja de texto -->
+            <label>Ingrese su numero de documento:</label>
+            <input type="text" placeholder="Numero de indetificación">
+            <label for="">Ingrese su nombre:</label>
+            <input type="text" placeholder="Nombre completo">
+            <label for="">Ingrese su Apellido:</label>
+            <input type="text" placeholder="Apellidos">
+            <!-- Radio button, escoger una opción  -->
+            <label for="">Ingrese su genero:</label>
+            <input type="radio" name="genero" id="">Masculino <br>
+            <input type="radio" name="genero" id="">Femenino<br>
+            <input type="radio" name="genero" id="">Otro<br>
 
+            <label for="">Seleccione el día de la cita</label>
+            <input type="checkbox" name="diaCita" id="">Lunes <br>
+            <input type="checkbox" name="diaCita" id="">Martes <br>
+            <input type="checkbox" name="diaCita" id="">Miercoles<br>
+            <input type="checkbox" name="diaCita" id="">Jueves<br>
+            <input type="checkbox" name="diaCita" id="">Viernes<br>
+           
+            <label for="">Deje un comentario:</label>
+            <textarea name="" id="" cols="50" rows="7"></textarea><br>
 
-    <form>
-        <label>Ingrese el tipo de documento</label>
-        <!-- Cuadro de selección -->
-        <select>
-            <option value="">Resgitro Civil</option>
-            <option value=""> Tarjeta de indentidad</option>
-            <option value="">Cedula extrajera</option>
-            <option value="">Cedula Ciudadanía</option>
-        </select>
-
-        <!-- Caja de texto -->
-        <label>Igrese su numero de documento</label>
-        <input type="text">
-        <label for="">Ingrese su nombre</label>
-        <input type="text">
-        <label for="">Ingrese su Apellido:</label>
-        <input type="text">
-        <!-- Radio button, escoger una opción -->
-        <label for="">Ingrese su genero:</label>
-        <input type="radio" name="genero" id="">Masculino <br>
-        <input type="radio" name="genero" id="">Femenino<br>
-        <input type="radio" name="genero" id="">Otro<br>
-        
-    </form>
+            <input type="submit" value="Enviar">
+            <button>Confirmar</button>
+        </form>
+    </fieldset>
 </body>
 
 </html>
