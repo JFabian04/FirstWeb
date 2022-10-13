@@ -5,13 +5,14 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
+    text-align: center;
 }
 
 input[type="text"] {
     padding: 5px;
     font-size: 1.1em;
     width: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     border: none;
     border-bottom: 1.2px solid darkblue;
 }
@@ -25,6 +26,20 @@ input[type="text"]:focus {
     outline: none;
 }
 
+select{
+    font-size:15px;
+    margin-bottom: 25px;
+    background-color: rgba(137, 43, 226, 0.123);
+}
+
 label {
     display: block;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+legend{
+    margin-bottom: 20px;
 }
