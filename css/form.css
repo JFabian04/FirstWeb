@@ -34,12 +34,17 @@ select{
 
 label {
     display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 .center{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-legend{
+legend{ 
     margin-bottom: 20px;
+}
+form{
+    margin-left: 40px;
 }

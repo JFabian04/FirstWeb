@@ -6,22 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
     <div class="cent">
-    <form>
-        <fieldset>
-            <legend>Login</legend>
-            <label for="">Usuario</label><br>
-            <input type="text"><br>
-            
-            <label for="">Password</label><br>
-            <input type="password" pattern=".{6,}">
-        </fieldset>
-    </form>
-</div>
+
+            <form>
+                <fieldset class="tittle">Oficina Virtual</fieldset>
+                <fieldset class="bord">
+                    <p class="inicio">Iniciar Sesión</p>
+                    <label for="">Tipo de Documento:</label>
+
+                    <select name="id" id="">
+                        <option value="">Cédula de Ciudadanía</option>
+                        <option value="">Tarjeta de Identidad</option>
+                        <option value="">Cédula Extragera</option>
+                    </select><br>
+
+                    <label for="">User:</label>
+                    <input type="text">
+                    <label for="">Password:</label>
+                    <input type="password" pattern=".{6,}"><br>
+                    <input type="checkbox" name="" id="">Recordar mis datos <br>
+
+                    <label for="">Verifcar Captcha:</label>
+
+                    <div class="g-recaptcha" data-sitekey="6LcBUpAiAAAAALvIBG8ktl5DrNXsaW7pYk1-f9Y_"></div><br>
+
+                    <div class="button"><input type="submit" value="Iniciar Sesión"> </div> 
+
+                    <p class="right">Olvidaste tu contraseña?</p>
+                    <p class="right">Registrarse</p>
+                </fieldset>
+            </form>
+    </div>
 </body>
 
 </html>
