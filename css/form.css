@@ -4,11 +4,13 @@
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
 }
 
 input[type="text"] {
+    border-radius: 7px;
+    background-color: rgba(138, 128, 228, 0.32);
     padding: 5px;
     font-size: 1.1em;
     width: 400px;
@@ -46,5 +48,16 @@ legend{
     margin-bottom: 20px;
 }
 form{
+    width: 500px;
     margin-left: 40px;
+}
+fieldset{
+    border: 1.5px solid black;
+    border-radius: 20px ;
+    background-color: rgba(4, 86, 158, 0.372);
+}
+textarea{
+    width: 400px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
