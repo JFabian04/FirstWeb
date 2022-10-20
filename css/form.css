@@ -1,8 +1,11 @@
-* {
+body{
+    background-color: rgb(185, 182, 207);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
+    
+    text-shadow: 2px 2px 5px rgb(88, 61, 124);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     text-align: center;
@@ -10,7 +13,7 @@ h1 {
 
 input[type="text"] {
     border-radius: 7px;
-    background-color: rgba(138, 128, 228, 0.32);
+    background-color: rgba(255, 255, 255, 0.671);
     padding: 5px;
     font-size: 1.1em;
     width: 400px;
@@ -20,7 +23,7 @@ input[type="text"] {
 }
 /* Poner un color de fondo al cuadro de  texto cuando se escriba */
 input[type="text"]:hover {
-    background-color: rgba(137, 43, 226, 0.116);
+    background-color: rgba(255, 255, 255, 0.404);
 }
 
 /* Lineas externas de cuadro de texto (quitar) */
@@ -29,9 +32,11 @@ input[type="text"]:focus {
 }
 
 select{
+    border-radius: 9px;
+    width: 215px;
     font-size:15px;
     margin-bottom: 25px;
-    background-color: rgba(137, 43, 226, 0.123);
+    background-color: rgba(255, 255, 255, 0.671)
 }
 
 label {
@@ -52,12 +57,26 @@ form{
     margin-left: 40px;
 }
 fieldset{
+    
+    box-shadow: 4px 4px 25px 1.5px rgb(96, 68, 99), -4px -4px 25px 1.5px rgb(118, 74, 122);
     border: 1.5px solid black;
     border-radius: 20px ;
-    background-color: rgba(4, 86, 158, 0.372);
+    background-color: rgba(127, 183, 233, 0.372);
 }
 textarea{
+    background-color: rgba(255, 255, 255, 0.671);
     width: 400px;
     border-radius: 15px;
     margin-bottom: 10px;
+}
+input[type="submit"],button{
+    font-weight: bold;
+    width: 75px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    color: aliceblue;
+    background-color: rgba(8, 8, 189, 0.637);
 }
