@@ -1,6 +1,4 @@
-body{
-    
-}
+
 a {
     font-family: sans-serif;
     font-size: 17px;
@@ -10,79 +8,106 @@ a {
     color: rgb(0, 0, 0);
 }
 
-
-.box-menu{
-    box-shadow: 1px 1px 8px rgb(127, 127, 137);
-    background-color: rgb(220, 220, 222);
+.box-menu {
+    
+    box-shadow: 1px 1px 10px rgb(221, 218, 218);
+    background-color: rgb(237, 237, 243);
     /* Pegar el manú a la marge */
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 255px;
     height: 100%;
     /* Efecto transicion - despliegue de menú */
-    transition: all  500ms ease;
+    transition: all 350ms ease;
     opacity: 0;
     visibility: hidden;
 }
-#menu:checked ~ .box-menu{
+.menu label{
+    position: relative;
+    left: 15px;
+    background-color: rgb(215, 215, 215);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20   px;
+}
+
+#menu:checked~.box-menu {
     opacity: 1;
     visibility: visible;
 }
 
-.box-items{
+.box-items {
     right: 13%;
     width: 96%;
     max-width: 293px;
     height: 100%;
     position: relative;
-    transition: all  500ms ease;
+    transition: all 500ms ease;
 }
 
-.box-items nav{
+.box-items nav {
     padding-top: 35px;
     transform: translateX(15%);
 }
-.box-items nav ul{
-   padding: 8px 0px 0px 20px;
+
+.box-items nav ul {
+    padding: 8px;
+    margin-left: 10px;
     list-style: none;
     transition: all 270ms ease;
 }
+
 .box-items nav ul:hover {
-    font-weight:bolder;/* Letra negrita */
-    border-radius: 80px;
-    padding: 13px;
-    margin-left: 12px ; 
+    font-weight: bolder;
+    /* Letra negrita */
+    border-radius: 20px;
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+    padding: 8px;
+    margin-left:19px;
     transition: all 210ms ease;
-    background-color: rgba(165, 42, 42, 0.177) ;
+    background-color: rgba(165, 42, 42, 0.177);
 }
-.exit{
-    position: absolute;
-    left: 105%;
-    bottom:95%;
+
+.exit {
+    position: relative;
+    left: 250px;
+    bottom: 730px;
     cursor: pointer;
-  
+    font-size: 18.5px;
 }
-#menu:checked ~ .box-menu{
+
+#menu:checked~.box-menu {
     opacity: 1;
     visibility: visible;
 }
 
-#menu{
+#menu {
     display: none;
 }
 
-.h{
+.h {
     position: relative;
     margin: 20px;
     right: 1%;
     width: 90%;
     border-bottom: 1.5px solid rgb(106, 106, 112);
 }
-/* .a{
-    padding-top: 0.1px;
-    position: absolute;
-    left: 20%;
-    border-bottom: 1px solid black;
-    width: 50%;
-} */
+div.box-menu {
+	height: 100vh;
+	overflow: auto;
+
+}
+
+body{
+    background-image: linear-gradient(to left,#42275a, #734b6d)
+}
+p{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+    display: inline-flex;
+}
