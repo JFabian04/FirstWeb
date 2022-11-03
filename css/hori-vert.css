@@ -18,6 +18,7 @@ a {
 }
 
 nav >ul {
+    cursor: pointer;
     padding-top: 10px;
     margin: 0%;
     height: 32px;
@@ -25,15 +26,12 @@ nav >ul {
     border-right: 1px solid orange;
 }
 
-nav >ul:hover {
-    background-color: rgb(229, 229, 229);
-}
-
 li {
     list-style: none;
 }
 
 nav ul li ul {
+
     display: none;
     position: absolute;
     min-width: 240px;
@@ -61,7 +59,7 @@ nav ul li ul .transparent {
     border-bottom: 1px solid transparent;
 }
 
-nav ul li:hover>ul {
+nav ul:hover ul {
     box-shadow: -1px 1px 10px black;
     padding: 7px;
     background-color: rgb(237, 237, 237);
@@ -70,7 +68,7 @@ nav ul li:hover>ul {
     cursor: pointer;
 }
 
-nav>ul>li {
+nav ul {
     float: left;
 }
 
@@ -78,8 +76,8 @@ nav>ul>li {
     position: relative;
     right: 1.5%;
     border-radius: 7px;
-    height: 75px;
-    width: 18%;
+    height: 57px;
+    width: 14%;
     background-color: rgb(86, 86, 86);
 }
 div ul .inline{ 
