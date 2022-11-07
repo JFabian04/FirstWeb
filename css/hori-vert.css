@@ -5,8 +5,7 @@ body {
 }
 
 nav {
-    box-shadow: 0px 1px 2px black;
-    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 4px rgb(126, 125, 125);
     display: flex;
     justify-content: center;
     align-self: center;
@@ -22,8 +21,11 @@ nav >ul {
     padding-top: 10px;
     margin: 0%;
     height: 32px;
-    padding-right: 2%;
+    padding-right: 2.5%;
     border-right: 1px solid orange;
+}
+nav >ul:hover{
+    background-color: rgb(229, 229, 229);
 }
 
 li {
@@ -60,7 +62,7 @@ nav ul li ul .transparent {
 }
 
 nav ul:hover ul {
-    box-shadow: -1px 1px 10px black;
+    box-shadow: -1px 1px 10px rgb(144, 143, 143);
     padding: 7px;
     background-color: rgb(237, 237, 237);
     border-radius: 5px;
@@ -68,8 +70,8 @@ nav ul:hover ul {
     cursor: pointer;
 }
 
-nav ul {
-    float: left;
+nav ul li{
+    float: center;
 }
 
 .inline{
@@ -77,7 +79,7 @@ nav ul {
     right: 1.5%;
     border-radius: 7px;
     height: 57px;
-    width: 14%;
+    width: 250px;
     background-color: rgb(86, 86, 86);
 }
 div ul .inline{ 
@@ -86,8 +88,8 @@ div ul .inline{
     align-items: center;
     padding-left: 15px;
 }
-div ul .inline:hover{    
-    background-color:  rgb(133, 133, 133);
+div ul li.inline:hover{    
+    background-color:  rgb(127, 127, 127);
     cursor: pointer;
 }
 div ul  .inline a{
