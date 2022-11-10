@@ -1,0 +1,66 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav {
+    background: rgb(61, 0, 61);
+}
+
+nav ul {
+    background-color: rgb(61, 0, 61);
+    /* background-color: rgb(61, 0, 61); */
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    display: table;
+    display: block;
+    list-style: none;
+}
+
+/*Acceder a los hijos directamente usando signo ">" */
+nav>ul>li {
+    width: 320px;
+    /* Separa (Funciona como un padding )*/
+    float: left;
+    /* Alinear (Funciona como un display block)*/
+    line-height: 70px
+        /* Interlineado (Centrar vertical)*/
+}
+
+nav a {
+    padding: 0 3em;
+    display: block;
+    font-size: 1.2em;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav li {
+    position: relative;
+}
+
+nav li li {
+    max-height: 0;
+    overflow: hidden;
+}
+
+nav li a:hover {
+    border-radius: 20px;
+    background-color: rgb(91, 59, 126);
+}
+
+nav li:hover>ul>li {
+    background-color: rgb(61, 34, 88);
+    max-height: 500px;
+    visibility: visible;
+    overflow: visible;
+}
+
+nav ul ul ul {
+   
+    top: 0%;
+    border-radius: 100px;
+    left: 100%;
+}
