@@ -9,6 +9,7 @@ nav {
 }
 
 nav ul {
+    
     background-color: rgb(61, 0, 61);
     /* background-color: rgb(61, 0, 61); */
     padding: 0;
@@ -21,46 +22,51 @@ nav ul {
 
 /*Acceder a los hijos directamente usando signo ">" */
 nav>ul>li {
-    width: 320px;
+    left: 1.5%;
+    position: relative;
+    width: 300px;
     /* Separa (Funciona como un padding )*/
     float: left;
     /* Alinear (Funciona como un display block)*/
-    line-height: 70px
+    line-height: 60px
         /* Interlineado (Centrar vertical)*/
 }
 
 nav a {
-    padding: 0 3em;
-    display: block;
+    /* padding: 0 1em; */
     font-size: 1.2em;
     color: aliceblue;
     text-decoration: none;
 }
 
 nav li {
+    text-align: center;
     position: relative;
 }
 
 nav li li {
+    border-bottom: 1px solid white;
     max-height: 0;
     overflow: hidden;
 }
-
-nav li a:hover {
-    border-radius: 20px;
-    background-color: rgb(91, 59, 126);
+nav li:hover {
+    background-color: rgb(112, 86, 139);
 }
-
+nav ul{
+    border-radius: 10px;
+}
 nav li:hover>ul>li {
-    background-color: rgb(61, 34, 88);
     max-height: 500px;
     visibility: visible;
     overflow: visible;
 }
 
 nav ul ul ul {
-   
     top: 0%;
-    border-radius: 100px;
+    /* border-radius: 10px; */
     left: 100%;
+}
+.icons{
+    color: aliceblue;
+    margin-left: 8px;
 }
