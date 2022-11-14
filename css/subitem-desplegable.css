@@ -9,7 +9,7 @@ nav {
 }
 
 nav ul {
-    
+
     background-color: rgb(61, 0, 61);
     /* background-color: rgb(61, 0, 61); */
     padding: 0;
@@ -22,39 +22,41 @@ nav ul {
 
 /*Acceder a los hijos directamente usando signo ">" */
 nav>ul>li {
-    left: 1.5%;
-    position: relative;
-    width: 300px;
+    width: 190px;
     /* Separa (Funciona como un padding )*/
-    float: left;
+    float:left;
     /* Alinear (Funciona como un display block)*/
-    line-height: 60px
+    line-height: 50px
         /* Interlineado (Centrar vertical)*/
 }
 
 nav a {
     /* padding: 0 1em; */
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: aliceblue;
     text-decoration: none;
 }
 
 nav li {
+    cursor: pointer;
     text-align: center;
     position: relative;
 }
 
 nav li li {
-    border-bottom: 1px solid white;
     max-height: 0;
     overflow: hidden;
 }
-nav li:hover {
+nav ul li:hover{
+    background-color:  rgb(112, 86, 139);
+}
+nav ul li ul li:hover {
+    border-radius: 10px;
     background-color: rgb(112, 86, 139);
 }
-nav ul{
+/* nav ul{
     border-radius: 10px;
-}
+} */
 nav li:hover>ul>li {
     max-height: 500px;
     visibility: visible;
@@ -69,4 +71,7 @@ nav ul ul ul {
 .icons{
     color: aliceblue;
     margin-left: 8px;
+}
+nav ul li ul{
+    border-radius: 10px;
 }
