@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav {
+    background-color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 45px 20px 45px;
+    /* text-align: center; */
+}
+
+.nav .menu-item .item:hover {
+    cursor: pointer;
+    background-color: rgb(231, 52, 52);
+}
+
+.hamburguer {
+    color: rgb(212, 57, 57);
+    padding: 15px;
+    border-radius: 10px;
+    display: none;
+}
+
+.hamburguer:hover {
+    color: white;
+}
+
+
+
+@media only screen and (max-width:850px) {
+    .hamburguer {
+        display: block;
+    }
+
+    li {
+        display: block;
+    }
+
+    nav ul li {
+        background-color: rgba(233, 77, 77, 0.486);
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    p{
+        position: relative;
+    }
+}
+p{
+    margin: 30px;
+}
