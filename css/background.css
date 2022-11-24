@@ -1,0 +1,25 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.box{
+    margin: auto;
+    background-image: url("../img/avenue-g3d7a9dac8_1920.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elem{
+    color: aliceblue;
+    display: inline-flex;
+    font-size: 1.5em;
+}
+.txt{
+    
+    padding-top: 20px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+}
