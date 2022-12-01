@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(6, 175, 119);
+}
+
+.item {
+    padding: 15px 30px 15px 30px;
+    display: inline-flex;
+    position: relative;
+}
+.item:hover{
+    background-color: rgb(5, 207, 140);
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.subMenu {
+    position: absolute;
+    display: none;
+    background-color: black;
+}
+.nav .menu .item:hover .subMenu{
+    display: block;
+}
+.subItem{
+    padding: 25px 50px 25px 50px;
+    list-style: none;
+}
+
+.subItem:hover{
+    background-color: gainsboro;
+}
+
+.icon{
+    color: white;
+    margin-left: 6px;
+}
+li{
+    position: relative;
+}
+
+.nav .menu .item .subMenu {
+    top:100%;
+    left: 0;
+}
