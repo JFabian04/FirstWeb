@@ -4,7 +4,7 @@
 }
 
 .nav {
-   
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(6, 175, 119);
 }
@@ -14,7 +14,8 @@
     display: inline-flex;
     position: relative;
 }
-.item:hover{
+
+.item:hover {
     background-color: rgb(5, 207, 140);
 }
 
@@ -24,60 +25,77 @@ a {
 }
 
 
-.subItem{
+.subItem {
     padding: 25px 52px 25px 52px;
     list-style: none;
 }
 
-.subItem:hover{
+.subItem:hover {
     background-color: rgb(100, 196, 142);
 }
 
-.icon{
+.icon {
     color: white;
     margin-left: 6px;
     /* margin-top: 5px; */
 }
-li{
+
+li {
     position: relative;
 }
-.icon-text{
+
+.icon-text {
     display: none;
 }
-.nav .menu .item:hover .subMenu{
+
+.nav .menu .item:hover .subMenu {
     display: block;
 }
 
-.subMenu{
-    top:101%;
+.subMenu {
+    top: 101%;
     left: 0;
     position: absolute;
     display: none;
     background-color: rgb(42, 169, 114);
 }
 
-@media only screen and (max-width: 820px){
-    .menu{
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin: 50px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 820px) {
+    .menu {
         display: none;
     }
-    .icon-text{
+
+    .icon-text {
         color: aliceblue;
         display: block;
         padding: 5px;
         font-size: 3em;
     }
 
-    .item{
-        padding: 25px 25px;
+    .item {
+        position: relative;
+        padding: 35px 35px;
         background-color: rgb(42, 160, 109);
         width: 150px;
         display: block;
     }
-    .nav{
+
+    .nav {
         width: 100%;
-        height: 59px;   
+        height: 59px;
     }
-    .subMenu{
+
+    .subMenu {
         display: block;
+    }
+    p{
+     margin: 25px;
     }
 }
