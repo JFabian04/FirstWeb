@@ -26,6 +26,7 @@ a {
 
 
 .subItem {
+    border-bottom: 1px solid white;
     padding: 25px 52px 25px 52px;
     list-style: none;
 }
@@ -50,6 +51,7 @@ li {
 
 .nav .menu .item:hover .subMenu {
     display: block;
+    box-shadow: 1px 1px 10px 1px rgb(184, 184, 184);
 }
 
 .subMenu {
