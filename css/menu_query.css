@@ -4,7 +4,6 @@
 }
 
 .nav {
-
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(6, 175, 119);
 }
@@ -23,7 +22,6 @@ a {
     text-decoration: none;
     color: white
 }
-
 
 .subItem {
     border-bottom: 1px solid white;
@@ -69,10 +67,20 @@ p {
     text-align: justify;
 }
 
+
 @media only screen and (max-width: 820px) {
     .menu {
         display: none;
     }
+
+    .subMenu {
+        top: 101%;
+        left: 0;
+        position: absolute;
+        display: none;
+        background-color: rgb(42, 169, 114);
+    }
+  
 
     .icon-text {
         color: aliceblue;
@@ -97,7 +105,8 @@ p {
     .subMenu {
         display: block;
     }
-    p{
-     margin: 25px;
+
+    p {
+        margin: 25px;
     }
 }
