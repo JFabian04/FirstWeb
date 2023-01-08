@@ -228,7 +228,7 @@ h2 {
 
     .itemMenu-visible {
         display: block;
-        margin-left: 400px;
+        margin-left: 490px;
     }
     
     .btn {
@@ -271,19 +271,14 @@ h2 {
     }
 
     .box {
-        margin-top: 60px;
+        margin-top: 50px;
         width: 90%;
         font-size: 20px;
         height: 460px;
     }
 
     .perfil {
-        width: 250px;
-    }
-    .nav{
-        position: fixed;
-        top: 0;
-        z-index: 1;
+        width: 180px;
     }
 
 }
