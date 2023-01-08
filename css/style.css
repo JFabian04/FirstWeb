@@ -8,17 +8,17 @@
 @font-face {
     font-family: 'Teko';
     font-weight: 10;
-    src: url('/webfonts/Teko-Bold.ttf');
+    src: url('../webfonts/Teko-Bold.ttf');
     src: local(''),
-        url('/webfonts/Teko-Bold.ttf') url('/webfonts/Teko-Bold.ttf') format('truetype');
+        url('../webfonts/Teko-Bold.ttf') url('../webfonts/Teko-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Mina';
     font-weight: 900;
-    src: url('/webfonts/Mina-Bold.ttf');
+    src: url('../webfonts/Mina-Bold.ttf');
     src: local(''),
-        url('/webfonts/Mina-Bold.ttf') url('/webfonts/Mina-Bold.ttf') format('truetype');
+        url('../webfonts/Mina-Bold.ttf') url('../webfonts/Mina-Bold.ttf') format('truetype');
 }
 
 .itemMenu {
@@ -47,7 +47,7 @@ li{
 }
 
 .img {
-    background-image: url(/img/triangles-1430105_960_720.png);
+    background-image: url(../img/triangles-1430105_960_720.png);
     background-size: cover;
 
 }
