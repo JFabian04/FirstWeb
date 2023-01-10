@@ -95,7 +95,7 @@ p {
 
 /* Posicion y tamaño de enlaces de a fuentes */
 .fontFour-v {
-    padding:25px;
+    padding: 25px;
     font-weight: 560;
     transition: all 0.2s ease-in;
     border-radius: 80px;
@@ -111,7 +111,7 @@ p {
 
 
 /* Pantalla Grande Hover */
-@media only screen and (min-width:1023px) {
+@media only screen and (min-width:900px) {
 
     .content:hover {
         width: 220px;
@@ -131,22 +131,25 @@ p {
         background-color: rgba(6, 187, 166, 0.4);
     }
 }
+
 /* Pantalla Movil */
-@media only screen and (max-width:1023px) {
-    .cajas{
+@media only screen and (max-width:900px) {
+    .cajas {
         display: block;
-        position: relative;
-        transform: translate(21%);
-        
+        margin-left: 20%;
+
     }
-    .content{
+
+    .content {
         height: 70px;
         margin: 6px;
     }
-    .top{
+
+    .top {
         margin-top: 15px;
     }
 }
+
 .color {
     background-image: url(../img/color.png);
     background-size: cover;
