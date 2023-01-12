@@ -14,13 +14,14 @@ icon.addEventListener("click", function () {
 })
 products.addEventListener("click", function () {
     if (subMenu.classList.contains('subMenu-v')) {
+        subMenu.classList.add('subItem-m');
         products.classList.add('pro')
-        subMenu.classList.add('subMe');
-        subMenu.classList.add('subItem');
+        products.classList.add('itemPro-v')     
         subMenu.classList.remove('subMenu-v');
     } else {
+        subMenu.classList.remove('subItem-m');
+        products.classList.remove('itemPro-v')
         products.classList.remove('pro')
-        subMenu.classList.remove('subMe');
         subMenu.classList.add('subMenu-v');
     }
 })

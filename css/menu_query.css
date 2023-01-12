@@ -70,20 +70,14 @@ p {
         font-size: 3em;
     }
 
-    .subMe {
-        display: block;
-    }
-
     .subMenu-v {
         display: none;
     }
 
-    .subItem {
+    .subItem-m {
         position: relative;
-        right: 30px;
-        width: 70%;
-        border-bottom: transparent;
-        padding: 20px 52px 15px 32px;
+        right: 25px;
+        width: 93%;
     }
 
     .item {
@@ -93,8 +87,13 @@ p {
         width: 150px;
         display: block;
     }
-    .pro{
-        transition: all 1s ;
+
+    .itemPro-v {
+        padding-bottom: 0px;
+    }
+
+    .pro {
+        transition: background-color 1s;
         background-color: rgb(91, 190, 134);
     }
 
