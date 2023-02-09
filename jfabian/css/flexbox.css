@@ -4,6 +4,7 @@
 }
 
 .flex {
+    border-radius: 10px;
     margin: 10px;
     width: 350px;
     height: 350px;
@@ -61,15 +62,89 @@ img {
     height: 385px;
     justify-content: space-between;
 }
-.box-sapace-evelyn{
+
+.box-sapace-evelyn {
     background-color: purple;
     display: flex;
     height: 385px;
     justify-content: space-evenly;
 }
-.box-sapace-around{
+
+.box-sapace-around {
     background-color: purple;
     display: flex;
     height: 385px;
     justify-content: space-around;
+}
+
+.box-start {
+    background-color: purple;
+    display: flex;
+    height: 385px;
+    justify-content: flex-start;
+    flex-flow: row-reverse;
+}
+
+.box-aling-start {
+    gap: 80px;
+    background-color: purple;
+    display: flex;
+    align-items: flex-start
+}
+
+.box-aling-end {
+    width: 600px;
+    border-left: 2px solid black;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 100px 0px white;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.box-02,
+.box-07 {
+    height: 210px;
+}
+
+.box-04,
+.box-09 {
+    height: 450px;
+}
+
+.box-06,
+.box-07,
+.box-08,
+.box-09,
+.box-10 {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    width: 105px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.ecosalud{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+.txt{
+    transform: rotate(270deg);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.marc{
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.txt-center{
+    display: flex;
+    transform: rotate(270deg);
+    align-items:center ;
 }
