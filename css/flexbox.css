@@ -122,29 +122,62 @@ img {
     margin-bottom: 0px;
     width: 105px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
-.center{
+
+.center {
     display: flex;
     justify-content: center;
 }
-.ecosalud{
+
+.ecosalud {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
     text-align: center;
 }
-.txt{
+
+.txt {
     transform: rotate(270deg);
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.marc{
+
+.marc {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.txt-center{
+
+.txt-center {
     display: flex;
-    transform: rotate(270deg);
-    align-items:center ;
+
+    align-items: center;
+}
+
+.lines {
+    margin-bottom: 80px;
+    left: 480px;
+    position: absolute;
+    width: 620px;
+    border-bottom: 1px dashed rgba(0, 75, 121, 0.424);
+}
+.two{
+    margin-bottom: 180px;
+}
+.three{
+    margin-bottom: 280px;
+}
+.four{
+    margin-bottom: 380px;
+}
+.five{
+    margin-bottom: 460px;
+}
+.num-end{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    left: 10px;
+    text-align: end;
 }

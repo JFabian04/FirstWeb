@@ -214,3 +214,7 @@ p {
     background-image: url(../img/transition.webp);
     background-size: 150%;
 }
+.flexbox{
+    background-image: url(../img/flexbox.png);
+    background-size: cover;
+}
