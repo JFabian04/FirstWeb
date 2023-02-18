@@ -218,3 +218,7 @@ p {
     background-image: url(../img/flexbox.png);
     background-size: cover;
 }
+.grid{
+    background-image: url(../img/grid.png);
+    background-size: cover;
+}
