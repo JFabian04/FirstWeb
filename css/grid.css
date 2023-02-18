@@ -123,7 +123,22 @@
 .date-n {
     color: rgb(183, 183, 183);
 }
+@media only screen and (min-width: 767px) and (max-width: 1381px) {
+    .calendar {
+        grid-template-columns: repeat(7, 140px);
+        grid-template-rows: repeat(7, 84.6px);
+    }
 
+    .center-tit {
+        width: 100%;
+        box-shadow: 0px 0px 10px 0px transparent;
+    }
+
+    .tit-calen {
+        font-size: 2em;
+    }
+   
+}
 @media only screen and (max-width: 767px) {
     .calendar {
         grid-template-columns: repeat(7, 48.5px);
@@ -137,10 +152,8 @@
     }
 
     .tit-calen {
-        text-align: center;
         font-size: 2em;
     }
-
     .date,
     .date-n {
         display: flex;
@@ -151,8 +164,8 @@
         border-bottom-right-radius: 0px;
     }
     /* recortar palabras */
-    .txt-day{
-        padding-left: 8px;
+    .cut{
+        width: 40px;
         overflow: hidden;
         text-overflow:ellipsis;
     }
