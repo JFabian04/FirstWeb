@@ -46,8 +46,8 @@ li{
     left: -200;
 }
 
-.img {
-    background-image: url(../img/triangles-1430105_960_720.png);
+body {
+    background-image: url(../img/tri_compresed.png);
     background-size: cover;
 
 }
