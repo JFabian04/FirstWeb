@@ -6,8 +6,10 @@
 }
 
 .cont {
+    /* C centra todo normal y queda fino */
     display: grid;
-    grid-template: "empty logo overflow options options options options btn1 btn empty1" 80px/ 1fr 125px 1.2fr 150px 150px 150px 150px 128px 128px 1fr;
+    justify-content: center;
+    grid-template: 80px/ 125px 210px 150px 150px 150px 150px 128px 128px;
 }
 
 .main-img {
@@ -28,6 +30,9 @@
     background-color: rgb(234, 234, 234);
 }
 
+.btn1, .btn{
+    border-radius: 100px;
+}
 .btn1 {
     border: 1px solid rgb(255, 47, 115);
 }
@@ -42,16 +47,21 @@
     align-items: center;
 }
 
-.more{
+.contain-more {
+    margin: auto;
+    width: 1200px;
+    position: relative;
+    bottom: 99px;
+}
+
+.more {
     border: none;
     color: aliceblue;
     border-radius: 100px;
     width: 391px;
     height: 56px;
     background-color: #210049;
-    position: relative;
-    left: 9%;
-    bottom: 101px;
+
 }
 
 /*  tarjetas */
@@ -74,19 +84,22 @@
     border-radius: 29px;
     box-shadow: 3px 1px 5px rgb(235, 235, 235);
 }
-.tarjeta-img{
-    color:aliceblue;
+
+.tarjeta-img {
+    color: aliceblue;
     width: 282px;
     height: 230px;
     background-color: rgb(74, 0, 99);
-    border-top-right-radius: 29px ;
-    border-top-left-radius: 29px ;
+    border-top-right-radius: 29px;
+    border-top-left-radius: 29px;
 }
-.lorem{
+
+.lorem {
     font-size: 1.1em;
     padding: 35px 15px 30px 15px
 }
-.btn-tarjeta{
+
+.btn-tarjeta {
     color: aliceblue;
     background-color: #4376FF;
     width: 250px;
@@ -96,6 +109,7 @@
     border-radius: 100px;
     border: transparent;
 }
+
 .second-img {
     background-color: #C8F7F3;
     display: grid;
@@ -103,6 +117,7 @@
     grid-template: 699px/ 100%;
     background-size: cover;
 }
+
 .section-category {
     width: 1200px;
     height: 160px;
@@ -112,7 +127,8 @@
     grid-column-gap: 24px;
     margin-top: 330px;
 }
-.tarjeta-category{
+
+.tarjeta-category {
     border-radius: 29px;
     background-color: aliceblue;
 }
@@ -134,8 +150,82 @@
     grid-row-gap: 24px;
     margin-top: 280px;
 }
-.tarjeta-option{
+
+.tarjeta-option {
     color: #FF2F73;
     border-radius: 29px;
     background-color: aliceblue;
+}
+
+.help {
+    color: aliceblue;
+    position: fixed;
+    right: 19px;
+    bottom: 15px;
+    border-radius: 100px;
+    border: none;
+    width: 118px;
+    height: 46px;
+    background-color: #210049;
+}
+
+/* footer */
+.footer {
+    height: 799px;
+    background-color: #210049;
+}
+
+.powerby {
+    display: grid;
+    justify-content: center;
+    grid-template: 38px/ 172px 210px 135px 135px 135px 135px;
+    grid-column-gap: 50px;
+    padding: 50px 0px 50px 0px;
+}
+
+.powers {
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+
+.round {
+    border-radius: 100px;
+    height: 44px;
+}
+
+.footer-menu {
+    border-top: 1px solid rgba(245, 245, 245, 0.295);
+    border-bottom: 1px solid rgba(245, 245, 245, 0.295);
+    height: 400px;
+    width: 1190px;
+    margin: auto;
+}
+
+.section-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: repeat(1, 0px);
+    margin-top: 100px;
+}
+
+.menu-list {
+    list-style: none;
+    font-size: 1.3em;
+    color: aliceblue;
+}
+
+.items-footer {
+    margin-bottom: 20px;
+}
+
+
+.contac {
+    display: grid;
+    justify-content: left;
+    position: relative;
+    top: 300px;
+    grid-template: 38px/172px 20px 44px 44px 44px 44px 44px;
+    grid-column-gap: 50px;
+    padding: 50px 0px 50px 0px;
 }
