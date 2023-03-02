@@ -1,34 +1,141 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-.cont{
+
+.cont {
     display: grid;
-    grid-template: 80px/ 358px 130px 210px 150px 150px 150px 150px 128px 128px 1fr;
+    grid-template: "empty logo overflow options options options options btn1 btn empty1" 80px/ 1fr 125px 1.2fr 150px 150px 150px 150px 128px 128px 1fr;
 }
-.main-img{
+
+.main-img {
     color: aliceblue;
+    background-color: rgb(221, 0, 0);
     display: grid;
-    background-image: linear-gradient(to right,rgb(166, 3, 125),rgb(27, 0, 136), rgb(0, 247, 255));
-    grid-template: 625px/ 100%;
+    background-image: url(../img/nequi);
+    grid-template: 570px/ 100%;
+    background-size: cover;
 }
-.logo{
+
+.logo {
     color: aliceblue;
-   background-color: rgb(33, 0, 73);
+    background-color: rgb(33, 0, 73);
 }
-.options{
- background-color: rgb(234, 234, 234);
+
+.options {
+    background-color: rgb(234, 234, 234);
 }
-.btn1{
+
+.btn1 {
     border: 1px solid rgb(255, 47, 115);
 }
-.btn{
+
+.btn {
     background-color: rgb(255, 47, 115);
 }
-.options,.logo,.btn1, .btn, .txt{
+
+.txt {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.more{
+    border: none;
+    color: aliceblue;
+    border-radius: 100px;
+    width: 391px;
+    height: 56px;
+    background-color: #210049;
+    position: relative;
+    left: 9%;
+    bottom: 101px;
+}
+
+/*  tarjetas */
+.section-center {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 1200px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    grid-template-rows: repeat(1, 600px);
+    grid-column-gap: 24px;
+    margin: 150px 0px 150px 0px;
+}
+
+.tarjeta {
+    border-radius: 29px;
+    box-shadow: 3px 1px 5px rgb(235, 235, 235);
+}
+.tarjeta-img{
+    color:aliceblue;
+    width: 282px;
+    height: 230px;
+    background-color: rgb(74, 0, 99);
+    border-top-right-radius: 29px ;
+    border-top-left-radius: 29px ;
+}
+.lorem{
+    font-size: 1.1em;
+    padding: 35px 15px 30px 15px
+}
+.btn-tarjeta{
+    color: aliceblue;
+    background-color: #4376FF;
+    width: 250px;
+    height: 56px;
+    position: relative;
+    left: 17px;
+    border-radius: 100px;
+    border: transparent;
+}
+.second-img {
+    background-color: #C8F7F3;
+    display: grid;
+    background-image: url(../img/second-img.png);
+    grid-template: 699px/ 100%;
+    background-size: cover;
+}
+.section-category {
+    width: 1200px;
+    height: 160px;
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: repeat(1, 160px);
+    grid-column-gap: 24px;
+    margin-top: 330px;
+}
+.tarjeta-category{
+    border-radius: 29px;
+    background-color: aliceblue;
+}
+
+.third-img {
+    display: grid;
+    background-color: #FF2F73;
+    grid-template: 800px/ 100%;
+
+}
+
+.section-option {
+    width: 1200px;
+    height: 160px;
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: repeat(2, 160px);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-top: 280px;
+}
+.tarjeta-option{
+    color: #FF2F73;
+    border-radius: 29px;
+    background-color: aliceblue;
 }
