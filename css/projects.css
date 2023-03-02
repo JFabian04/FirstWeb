@@ -222,3 +222,7 @@ p {
     background-image: url(../img/grid.png);
     background-size: cover;
 }
+.maqueta{
+    background-image: url(../img/nequi_maq.png);
+    background-size: 100px;
+}
