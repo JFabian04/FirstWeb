@@ -231,7 +231,7 @@
 }
 
 .icon {
-    padding: 21px 0px 0px 30px;
+    
     border-radius: 10px;
     font-size: 2em;
     display: none;
@@ -255,6 +255,7 @@
 
     .icon {
         display: block;
+        padding: 18px 0px 0px 30px;
     }
 
     .main-img {
@@ -323,8 +324,9 @@
 
 /* Tablet */
 @media only screen and (min-width: 767px) and (max-width: 1231px) {
-    .icon{
+    .icon {
         display: block;
+        padding: 25px 0px 0px 30px;
     }
     .second-img {
         overflow: hidden;
