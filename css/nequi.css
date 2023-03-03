@@ -9,7 +9,7 @@
     /* C centra todo normal y queda fino */
     display: grid;
     justify-content: center;
-    grid-template: 80px/ 125px 210px 150px 150px 150px 150px 128px 128px;
+    grid-template: 80px/125px 210px 150px 150px 150px 150px 128px 128px 0px;
 }
 
 .main-img {
@@ -30,9 +30,11 @@
     background-color: rgb(234, 234, 234);
 }
 
-.btn1, .btn{
+.btn1,
+.btn {
     border-radius: 100px;
 }
+
 .btn1 {
     border: 1px solid rgb(255, 47, 115);
 }
@@ -61,7 +63,6 @@
     width: 391px;
     height: 56px;
     background-color: #210049;
-
 }
 
 /*  tarjetas */
@@ -219,7 +220,6 @@
     margin-bottom: 20px;
 }
 
-
 .contac {
     display: grid;
     justify-content: left;
@@ -228,4 +228,170 @@
     grid-template: 38px/172px 20px 44px 44px 44px 44px 44px;
     grid-column-gap: 50px;
     padding: 50px 0px 50px 0px;
+}
+
+.icon {
+    padding: 21px 0px 0px 30px;
+    border-radius: 10px;
+    font-size: 2em;
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* ELIMINA desplazamiento vertical */
+    .second-img {
+        overflow: hidden;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .cont {
+        /* C centra todo normal y queda fino */
+        grid-template: 65px/100px 0.7fr 60px;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .main-img {
+        grid-template: 620px/ 100%;
+    }
+
+    .contain-more {
+        width: 315px;
+        bottom: 59px;
+    }
+
+    .more {
+        width: 330px;
+    }
+
+    .section {
+        width: 280px;
+    }
+
+    .section-category {
+        width: 300px;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(1, 232px);
+    }
+
+    .section-option {
+        width: 300px;
+        grid-template-columns: repeat(6, 300px);
+        grid-template-rows: repeat(1, 136px);
+        margin-top: 350px;
+    }
+
+    .round {
+        height: 40px;
+    }
+
+    .powerby {
+        grid-template-columns: repeat(2, 120px);
+        grid-template-rows: repeat(3, 50px);
+        grid-row-gap: 20px;
+    }
+
+    .section-footer {
+        margin-left: 60px;
+        grid-template-columns: repeat(1, 250px);
+        margin-top: 100px;
+    }
+
+    .contac {
+        margin-left: 55px;
+        top: 35px;
+        grid-template-columns: repeat(7, 40px);
+        grid-template-rows: repeat(1, 40px);
+        grid-column-gap: 1px;
+    }
+
+    .power-witdth {
+        width: 71px;
+    }
+
+    .help {
+        width: 46px;
+    }
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 767px) and (max-width: 1231px) {
+    .icon{
+        display: block;
+    }
+    .second-img {
+        overflow: hidden;
+    }
+
+    .cont {
+        background-color: aliceblue;
+        /* C centra todo normal y queda fino */
+        grid-template: 80px/100px 0.8fr 60px;
+    }
+    .main-img {
+        grid-template: 667px/ 100%;
+    }
+    .none-tablet {
+        display: none;
+    }
+
+    .section {
+        width: 780px;
+        grid-template-columns: repeat(2, 282px);
+        grid-template-rows: repeat(2, 582px);
+        grid-column-gap: 220px;
+        grid-row-gap: 25px;
+        margin: 100px 0px 700px 0px;
+    }
+    .contain-more {
+        width: 375px;
+    }
+    .section-category {
+        width: 680px;
+        grid-template-columns: repeat(3, 205px);
+        grid-template-rows: repeat(3, 200px);
+        margin-top: 220px;
+    }
+
+    .section-option {
+        width: 650px;
+        grid-template-columns: repeat(2, 315px);
+        grid-template-rows: repeat(3, 135px);
+        grid-column-gap: 14px;
+        grid-row-gap: 24px;
+        margin-top: 140px;
+    }
+
+    .powerby {
+        grid-template-columns: repeat(3, 190px);
+        grid-template-rows: repeat(2, 50px);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .section-footer {
+        margin-left: 200px;
+        grid-template-columns: repeat(1, 250px);
+    }
+
+    .contac {
+        justify-content: center;
+        margin-right: 290px;
+        top: 35px;
+        grid-column-gap: 15px;
+    }
+
+    .power-witdth {
+        height: 40px;
+        width: 150px;
+    }
+
+
 }
