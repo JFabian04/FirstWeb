@@ -250,7 +250,7 @@
 
     .cont {
         /* C centra todo normal y queda fino */
-        grid-template: 65px/100px 0.7fr 60px;
+        grid-template: 65px/100px 0.8fr 65px;
     }
 
     .icon {
