@@ -10,3 +10,4 @@ icon.addEventListener("click", function(){
         menu.classList.add("itemMenu-visible")
     }
 });
+

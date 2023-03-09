@@ -62,7 +62,6 @@ menuQ.addEventListener("click", function () {
 let forms = document.getElementById('forms')
 
 forms.addEventListener("click", function () {
-
     document.getElementById("dis").innerHTML = '<a class="fref" href="form.html"><li class="fontFour-v">Citas Médicas</li></a>';
     document.getElementById("gam").innerHTML = '<a class="fref" href="login.html"><li class="fontFour-v">Inicio de Sesión</li></a>';
 
@@ -74,3 +73,5 @@ posit.addEventListener("click", function () {
     document.getElementById("gam").innerHTML = '<a class="fref" href="relative.html"><li class="fontFour-v">Relative</li></a>';
 
 })
+
+  
