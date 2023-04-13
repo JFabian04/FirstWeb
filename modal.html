@@ -29,17 +29,29 @@
     <div class="main">
         <div class="img-box-main">
             <img id="main-box" class="img img-box" src="img/image-product-1.jpg" alt="">
-            <div class="border"><img id="imgMini1" class="img img-mini-1" src="img/image-product-1-thumbnail.jpg"
-                    alt=""></div>
-            <div></div>
-            <div class="border"><img id="imgMini2" class="img img-mini-2" src="img/image-product-2-thumbnail.jpg"
-                    alt=""></div>
-            <div></div>
-            <div class="border"><img id="imgMini3" class="img img-mini-3" src="img/image-product-3-thumbnail.jpg"
-                    alt=""></div>
-            <div></div>
-            <div class="border"><img id="imgMini4" class="img img-mini-4" src="img/image-product-4-thumbnail.jpg"
-                    alt=""></div>
+            <div class="container-img">
+                <div id="border1">
+                    <img id="imgMini1" class="img img-mini-1" src="img/image-product-1-thumbnail.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="container-img">
+                <div id="border2">
+                    <img id="imgMini2" class="img img-mini-2" src="img/image-product-2-thumbnail.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="container-img">
+                <div id="border3">
+                    <img id="imgMini3" class="img img-mini-3" src="img/image-product-3-thumbnail.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="container-img">
+                <div id="border4">
+                    <img id="imgMini4" class="img img-mini-4" src="img/image-product-4-thumbnail.jpg" alt="">
+                </div>
+            </div>
             <!-- <div id="main-box" class="main-box"></div> -->
             <!-- <div id="imgMini1" class="img-mini-1"></div> -->
             <!-- <div id="imgMini2" class="img-mini-2"></div> -->
@@ -47,18 +59,33 @@
         </div>
         <div class="info">
             <p class="orange">SNEAKER COMPANY</p>
-            <h3 class="sub-title">Fall Limited Edition <br> Sneakers</h3>
-            <p class="txt bottom">These low-profile sneakers are your perfect casual wear <br> companion. Featuring a durable rubber
+            <h3 class="sub-title">Fall Limited Edition Sneakers</h3>
+            <p class="txt bottom">These low-profile sneakers are your perfect casual wear <br> companion. Featuring a
+                durable rubber
                 outer sole, they'll <br> withstand everything the weather can offer</p>
-            
-            <div class="number-flex"><p class="number bottom">$125.00 <p class="dto">50%</p></p></div>
-            
+
+            <div class="number-flex">
+                <p class="number bottom">$125.00
+                <p class="dto">50%</p>
+                </p>
+            </div>
+
             <p class="before bottom">$250.00</p>
             <div class="counter">
-                <button class="btn less"><p class="simb">-</p></button>
-                <span class="btn"><p class="count-num">1</p></span>
-                <button class="btn more"><p class="simb">+</p></button>
-                <button class="add"></button>
+                <div class="btn less" id="less">
+                    <p class="simb"><i class="fa-solid icon fa-minus"></i></p>
+                </div>
+                <div class="btn1 btn">
+                    <p class="count-num" id="number">0</p>
+                </div>
+                <div class="btn more" id="more">
+                    <p class="simb"><i class="fa-solid fa-plus"></i></p>
+                </div>
+                <div class="btn-add">
+                    <button class="add">
+                        <p class="txt-add"><i class="fa-solid fa-cart-shopping"></i> Add to cart</p>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
