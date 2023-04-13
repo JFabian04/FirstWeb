@@ -5,11 +5,12 @@ let miniThree = document.getElementById("imgMini3")
 let miniFour = document.getElementById("imgMini4")
 
 miniOne.addEventListener("click", function() {
+    // miniOne.classList.add("border-vis")
     miniOne.classList.add("img-vis")
     main.setAttribute("src", "img/image-product-1.jpg")
-    miniTwo.classList.remove("img-vis")
-    miniThree.classList.remove("img-vis")
-    miniFour.classList.remove("img-vis")
+    miniTwo.classList.remove("img-vis","border-vis")
+    miniThree.classList.remove("img-vis","border-vis")
+    miniFour.classList.remove("img-vis","border-vis")
 })
 miniTwo.addEventListener("click", function() {
     miniTwo.classList.add("img-vis")
