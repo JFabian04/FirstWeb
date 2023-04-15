@@ -66,8 +66,12 @@ let click = 0;
 
 
 more.addEventListener("click", function () {
-    click = click + 1;
-    return number.innerHTML = click;
+    if (click == 50) {
+        click = 50;
+    } else {
+        click = click + 1
+        number.innerHTML = click
+    }
     
 })
 
@@ -76,7 +80,7 @@ less.addEventListener("click", function () {
         click = 0;
     } else {
         click = click - 1
-        return number.innerHTML = click
+        number.innerHTML = click
     }
 });
 

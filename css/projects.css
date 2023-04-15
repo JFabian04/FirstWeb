@@ -231,3 +231,7 @@ p {
     background-image: url(../img/nequi_maq.png);
     background-size: 100px;
 }
+.carrito{
+    background-image: url(../img/carrito.png);
+    background-size: 200px;
+}

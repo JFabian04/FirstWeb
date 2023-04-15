@@ -45,16 +45,18 @@
     /* grid-column-gap: 100px; */
 
     grid-template: "img-box img-box img-box img-box" 435px
-                    "container-img container-img container-img container-img" 30px/
-                    90px 90px 90px 90px;
+        "container-img container-img container-img container-img" 30px/
+        90px 90px 90px 90px;
     grid-column-gap: 12px;
 }
-.container-img:hover{
+
+.container-img:hover {
     opacity: 0.5;
     cursor: pointer;
 }
-.bord{
-    height: 83.5px;
+
+.bord {
+    height: 86px;
     border-radius: 14px;
     border: 2px solid rgb(255, 72, 0);
 }
@@ -94,12 +96,34 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style: none;
     display: flex;
-    gap: 37px;
     border-bottom: 1px solid rgb(221, 221, 221);
-    padding: 27px 20px 27px 20px;
     margin-bottom: 71px;
 }
-
+.item{
+    padding: 27px 25px 27px 20px;
+    cursor: pointer;
+}
+.item:hover{
+    padding-bottom: 25px;
+    border-bottom: 1px solid orange;
+}
+.icon-car:hover{
+    cursor: pointer;
+    border-bottom: unset;
+}
+.img-p{
+    padding: 27px 8px 20px 20px;
+}
+.img-perfil:hover{
+    width: 20px;
+    border-radius: 100px;
+    border: 3px solid orange;
+}
+.snake{
+    margin-right: 30px;
+    cursor: pointer;
+    padding-top: 27px;
+}
 .space {
     margin-inline: 182px;
 }
@@ -142,11 +166,12 @@
     gap: 15px;
 }
 
-.number{
+.number {
     font-size: 2em;
     font-weight: bold;
 }
-.dto{
+
+.dto {
     margin-top: 7px;
     border-radius: 5px;
     background-color: rgb(255, 226, 205);
@@ -156,57 +181,86 @@
     padding: 5px;
 }
 
-.before{
+.before {
     color: gray;
     font-weight: bold;
     text-decoration: line-through;
 }
 
 .btn {
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(255, 81, 0);
+}
+
+.point:active {
     border-radius: 10px;
-    padding: 0px 20px 7px 20px;
-    /* background-color: rgb(255, 0, 0); */
-    /* margin-top: - px; */
-    color: orange;
-    font-size: 2em;
+    background-color: rgb(255, 132, 0);
+}
+.point{
+    cursor: pointer;
 }
 .btn:active{
-    background-color: orange;
+    color: whitesmoke;
 }
 .count-num {
     color: black;
     font-weight: bold;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
 
 .counter {
-    height: 58px;
-    width: 168px;
-    background-color: rgb(241, 241, 241);
-    border-radius: 11px;
     display: inline-flex;
 }
-.add{
-    border-radius: 10px;
+
+.add {
+    border-radius: 8px;
     border: none;
     height: 58px;
     margin-left: 30px;
     width: 270px;
     background-color: rgb(255, 123, 0);
 }
-.txt-add{
+.add:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.txt-add {
     font-weight: bold;
     font-size: 1.2em;
     color: whitesmoke;
 }
-.fa-cart-shopping{
+
+.fa-cart-shopping {
     margin-right: 20px;
 }
 
-.simb{
+.simb {
     font-size: 18px;
+}
+
+.buttons {
+    border-radius: 12px;
+    background-color: rgb(243, 243, 243);
+    display: grid;
+    width: 150px;
+    grid-template: "less btn1 more" 58px/ 35px 35px 35px;
+    grid-column-gap: 15px;
+}
+
+.less {
+    padding-inline: 25px;
+    grid-area: less;
+}
+
+.btn1 {
+    padding-inline: 25px;
+    grid-area: btn1;
+}
+
+.more {
+    padding-inline: 25px;
+    grid-area: more;
 }
