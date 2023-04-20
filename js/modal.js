@@ -62,25 +62,33 @@ miniFour.addEventListener("click", function () {
 let less = document.getElementById("less");
 let more = document.getElementById("more");
 let number = document.getElementById("number")
-let click = 0;
-
+let price =  document.getElementById("price")
+let click = 1;
+let total = 125000; 
 
 more.addEventListener("click", function () {
     if (click == 50) {
         click = 50;
     } else {
-        click = click + 1
-        number.innerHTML = click
+        click = click + 1;
+        number.innerHTML = click;
+        total = total + 125000;
+        price.innerHTML = "$" + total.toLocaleString("es") ;
     }
-    
 })
 
 less.addEventListener("click", function () {
-    if (click == 0) {
-        click = 0;
+    if (click == 1) {
+        click = 1;
+     
     } else {
         click = click - 1
         number.innerHTML = click
+        total = total - 125000;
+     
+        price.innerHTML = "$" + total.toLocaleString("es") ;
     }
 });
+
+let = document.getElementById("carShop");
 

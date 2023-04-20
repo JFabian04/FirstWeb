@@ -24,10 +24,50 @@
                 <li class="img-p"><img class="icon-car" src="img/snake-car.png" alt="" srcset=""></li>
                 <li class="img-p"><img class="img-perfil" src="img/sneaker_perfil.png" alt="" srcset=""></li>
             </ul>
+            <div id="infoShop" class="info-shop">
+                <p class="cart">Cart</p>
+                <i class="fa-solid fa-xmark"></i>
+                <img src="" alt="" id="productImg" class="product-img">
+                <i class="fa-regular fa-trash-can"></i>
+                <button id="checkout"></button>
+            </div>
+
         </nav>
     </div>
+    <div class="main-modal">
+        <div class="img-box-main box-modal">
+            <img id="" class="img img-box modal-img-box" src="img/image-product-1.jpg" alt="">
+            <div class="container-img">
+                <div id="">
+                    <img id="imgMini1" class="img img-mini-1" src="img/image-product-1-thumbnail.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="container-img">
+                <div id="">
+                    <img id="imgMini2" class="img img-mini-2" src="img/image-product-2-thumbnail.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="container-img">
+                <div id="">
+                    <img id="imgMini3" class="img img-mini-3" src="img/image-product-3-thumbnail.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="container-img">
+                <div id="">
+                    <img id="imgMini4" class="img img-mini-4" src="img/image-product-4-thumbnail.jpg" alt="">
+                </div>
+            </div>
+            <!-- <div id="main-box" class="main-box"></div> -->
+            <!-- <div id="imgMini1" class="img-mini-1"></div> -->
+            <!-- <div id="imgMini2" class="img-mini-2"></div> -->
+            <!-- <div id="imgMini3" class="img-mini-3"></div> -->
+        </div>
+    </div>
     <div class="main">
-        <div class="img-box-main">
+        <div class="img-box-main center">
             <img id="main-box" class="img img-box" src="img/image-product-1.jpg" alt="">
             <div class="container-img">
                 <div id="border1">
@@ -57,6 +97,7 @@
             <!-- <div id="imgMini2" class="img-mini-2"></div> -->
             <!-- <div id="imgMini3" class="img-mini-3"></div> -->
         </div>
+    
         <div class="info">
             <p class="orange">SNEAKER COMPANY</p>
             <h3 class="sub-title">Fall Limited Edition Sneakers</h3>
@@ -65,7 +106,7 @@
                 outer sole, they'll <br> withstand everything the weather can offer</p>
 
             <div class="number-flex">
-                <p class="number bottom">$125.00
+                <p class="number bottom" id="price">$125.000
                 <p class="dto">50%</p>
                 </p>
             </div>
@@ -77,7 +118,7 @@
                         <p class="simb"><i class="fa-solid icon fa-minus"></i></p>
                     </div>
                     <div class="btn btn1">
-                        <p class="count-num" id="number">0</p>
+                        <p class="count-num" id="number">1</p>
                     </div>
                     <div class="btn more point" id="more">
                         <p class="simb"><i class="fa-solid fa-plus"></i></p>
@@ -85,12 +126,13 @@
                 </div>
                 <div class="btn-add">
                     <button class="add">
-                        <p class="txt-add"><i class="fa-solid fa-cart-shopping"></i> Add to cart</p>
+                        <p class="txt-add"><i class="fa-solid fa-cart-shopping" id="carShop"></i> Add to cart</p>
                     </button>
                 </div>
             </div>
         </div>
     </div>
+
     <script src="js/modal.js"></script>
 </body>
 
