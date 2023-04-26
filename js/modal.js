@@ -62,9 +62,9 @@
 let less = document.getElementById("less");
 let more = document.getElementById("more");
 let number = document.getElementById("number")
-let price =  document.getElementById("price")
+let price = document.getElementById("price")
 let click = 1;
-let total = 125000; 
+let total = 125000;
 
 more.addEventListener("click", function () {
     if (click == 50) {
@@ -73,7 +73,7 @@ more.addEventListener("click", function () {
         click = click + 1;
         number.innerHTML = click;
         total = total + 125000;
-        price.innerHTML = "$" + total.toLocaleString("es") ;
+        price.innerHTML = "$" + total.toLocaleString("es");
     }
 })
 
@@ -86,7 +86,7 @@ less.addEventListener("click", function () {
         number.innerHTML = click
         total = total - 125000;
 
-        price.innerHTML = "$" + total.toLocaleString("es") ;
+        price.innerHTML = "$" + total.toLocaleString("es");
     }
 });
 
@@ -110,38 +110,10 @@ main.addEventListener("click", function () {
     coverMain.classList.add("cover-main")
     if (document.querySelector(".main-modal-vis") != null) {
         for (let i = 0; i < thubnail.length; i++) {
-            right.addEventListener("click", function () {
-                
-                for (let ind = 3; ind < i+1 ; ind++) {
-                    console.log("IND " + ind)
-                        console.log("I " + (i+1))
-                    if (ind == i+1) {
-                        
-                        border[ind].classList.add("bord")
-                        ind = ind +1
-                        // border[i].classList.add("bord")
-                        // opactity[ind - 3].classList.add("img-vis")
-                        // opactity[i + 2].classList.add("img-vis")
-                        for (let im = 0; im < mainImg.length; im++) {
-                            mainImg[im].setAttribute("src", arr[i - 4])
-                        }
-
-                    }
-                    // else {
-                    //     for (let ind = 7; ind >= 0; ind--) {
-                    //         border[ind].classList.remove("bord")
-                    //         opactity[ind + 1].classList.remove("img-vis")
-                    //         opactity[ind + 2].classList.remove("img-vis")
-                    //     }
-
-                    // }
-                }
-            })
             thubnail[i].addEventListener("click", function () {
                 for (let ind = 3; ind < i + 1; ind++) {
-
                     if (i == ind) {
-                        
+                        console.log("BORDE " + (i))
                         border[ind - 4].classList.add("bord")
                         border[i].classList.add("bord")
                         opactity[ind - 3].classList.add("img-vis")
@@ -149,86 +121,55 @@ main.addEventListener("click", function () {
                         for (let im = 0; im < mainImg.length; im++) {
                             mainImg[im].setAttribute("src", arr[i - 4])
                         }
-
-
                     } else {
                         for (let ind = 7; ind >= 0; ind--) {
                             border[ind].classList.remove("bord")
                             opactity[ind + 1].classList.remove("img-vis")
                             opactity[ind + 2].classList.remove("img-vis")
                         }
-
                     }
                 }
             })
 
-
-            // for (let i = 0; i <= thubnail.length; i++) {
-            //     rowCircle[i].addEventListener("click", function () {
-            //         i = i + 1
-            //         //    border[i].classList.add("bord")
-            //         for (let ind = 0; ind < i; ind++) {
-            //             console.log(i)
-            //             // border[ind].classList.add("bord")
-            //             // border[i + 2].classList.add("bord")
-            //             // border[i - 2].classList.add("bord")
-            //             // border[i + 1].classList.remove("bord")
-            //             // border[i - 3].classList.remove("bord")
-            //             if (i == i) {
-            //                 border[i + 2].classList.add("bord")
-            //                 border[i - 2].classList.add("bord")
-            //                 border[i + 1].classList.remove("bord")
-            //                 border[i - 3].classList.remove("bord")
-
-            //             }
-
-            //         }
-            //         // border[row-1].classList.add("bord")
-            //         // border[row+3].classList.add("bord")
-            //         // border[i+1].classList.remove("bord")
-            //         // border[row+3].classList.remove("bord")
-
-            //     })
-            // }
-
         }
     }
-    // if (document.querySelector(".main-modal-vis") != null) {
-    //     for (let i = 0; i < thubnail.length; i++) {
-    //         thubnail[i].addEventListener("click", function () {
-    //             for (let ind = 0; ind <= i + 4; ind++) {
-    //                 border[i].classList.add("bord");
-    //                 opactity[i - 3].classList.add("img-vis")
-    //                 console.log("IND " + ind + " = " + i + " == " + (i + 4))
 
-    //                 for (let img = 0; img < arr.length; img++) {
-    //                     if (ind == i + 4) {
 
-    //                         for (let im = 0; im < mainImg.length; im++) {
-    //                             mainImg[im].setAttribute("src", arr[i-4])
-    //                             console.log("IMAGENMODAL " + arr[i-2])
-    //                         }
-    //                         console.log("IMAGEN " + mainImg)
-    //                         border[i - 4].classList.add("bord");
-    //                         opactity[i + 2].classList.add("img-vis")
-    //                         // opactity[i + 2].classList.add("img-vis")
-    //                     }
-
-    //                 } if (ind != i + 4) {
-    //                     border[i - 1].classList.remove("bord");
-    //                     opactity[ind + 1].classList.remove("img-vis")
-    //                     // opactity[i+1].classList.remove("img-vis")
-    //                     console.log("Remove: " + ind)
-    //                     // for (let ind = 3; ind >= 1; ind--) {
-    //                     //     opactity[i-1].classList.remove("img-vis")
-    //                     //     // border[i+4].classList.remove("bord");
-    //                     //     console.log("Inverse: " + ind)
-    //                     // }
-    //                 }
-    //             }
-    //         })
-    //     }
-    // }
+    for (let index = 0; index <= 1; index++) {
+        rowCircle[index].addEventListener("click", function () {
+            if (index == 1) {
+                // console.log("INDEZ " + index)
+                let cont = 0
+                for (let i = 0; i <= 4; i++) {
+                    cont = cont + i
+                    console.log("I "  + i)
+                    console.log("CONTADOR "  + cont)
+                    if(cont == i+1){
+                        console.log("ITOW" + (i+1))
+                        console.log("CONTADORTWO" + cont)
+                    }
+                }
+            }
+            // for (let ind = 3; ind < index + 1; ind++) {
+            //     if (index == ind + 4) {
+            //         // border[ind].classList.add("bord")
+            //         console.log("RIGHT " + (i - 3))
+            //         border[index - 3].classList.add("bord")
+            //         // opactity[ind - 3].classList.add("img-vis")
+            //         // opactity[i + 2].classList.add("img-vis")
+            //         for (let im = 0; im < mainImg.length; im++) {
+            //             mainImg[im].setAttribute("src", arr[index - 4])
+            //         }
+            //     } else {
+            //         for (let ind = 7; ind >= 0; ind--) {
+            //             border[ind].classList.remove("bord")
+            //             opactity[ind + 1].classList.remove("img-vis")
+            //             opactity[ind + 2].classList.remove("img-vis")
+            //         }
+            //     }
+            // }
+        })
+    }
 })
 if (document.querySelector(".main-modal-vis") == null) {
     for (let i = 0; i <= 4; i++) {
@@ -244,26 +185,6 @@ if (document.querySelector(".main-modal-vis") == null) {
                     mainImg[im].setAttribute("src", arr[i])
                 }
             }
-
-            // for (let ind = 0; ind < i + 2; ind++) {
-            //     if (i == ind) {
-            //         border[i].classList.add("bord")
-            //         console.log("BORD ADD: " + "A")
-            //         opactity[i + 1].classList.add("img-vis")
-            //         for (let im = 0; im < mainImg.length; im++) {
-            //             mainImg[im].setAttribute("src", arr[i])
-            //         }
-            //     } 
-            //      }
-            //      if (i != i) {
-            //         border[i+1].classList.remove("bord")                        
-
-            //         opactity[i].classList.remove("img-vis")
-            //         for (let ind = 7; ind >= 0; ind--) {
-            //             opactity[i + 2].classList.remove("img-vis")
-            //         }
-
-            //     }
         })
     }
 }
