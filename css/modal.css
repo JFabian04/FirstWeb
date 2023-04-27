@@ -24,13 +24,23 @@
 .cover-main {
     background-color: rgba(0, 0, 0, 0.788);
     height: 102vh;
-    width: 100%;
+    width: 102%;
     position: absolute;
     top: 49%;
     left: 49%;
     transform: translate(-50%, -50%);
 }
 
+/* .op{
+    z-index: 999999999;
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+} */
 .main-modal {
     z-index: 2;
     position: absolute;
@@ -357,4 +367,18 @@ nav {
     position: absolute;
     color: aliceblue;
     font-size: 2.5em;
+}
+.fa-xmark{
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+    cursor: pointer;
+    color: rgb(201, 71, 0);
+    font-size: 1.5em;
+    position: relative;
+    /* z-index: 9999; */
+    left: 129vh;
+    top: 18vh;
 }
