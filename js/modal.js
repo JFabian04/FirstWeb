@@ -118,6 +118,12 @@ main.addEventListener("click", function () {
         exit.classList.remove("visible")
 
     })
+    exit.addEventListener("click", function(){
+        bodyBoxTwo.classList.remove("cover-main")
+        mainModal.classList.remove("main-modal-vis")
+        coverMain.classList.remove("cover-main")
+        exit.classList.remove("visible")
+    })
     if (document.querySelector(".main-modal-vis") != null) {
         for (let i = 0; i < thubnail.length; i++) {
             thubnail[i].addEventListener("click", function () {

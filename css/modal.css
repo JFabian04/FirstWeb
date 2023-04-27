@@ -378,7 +378,8 @@ nav {
     color: rgb(201, 71, 0);
     font-size: 1.5em;
     position: relative;
+    left: 100%;
     /* z-index: 9999; */
-    left: 129vh;
-    top: 18vh;
+    /* right: 129vh; */
+    /* top: 18vh; */
 }
