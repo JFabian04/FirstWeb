@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* body {
+    overflow: hidden;
+} */
+
+.icon {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: rgb(255, 102, 0);
+    font-size: 2em;
+    position: absolute;
+    z-index: 1;
+}
+
+.icons {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.fa-angles-right {
+    right: 0;
+}
+
+
+
+.img-three {
+    background-image: url(../img/speed-racing-collection.jpg);
+    background-size: cover;
+}
+
+.img-two {
+    background-image: url(../img/MY24-MX-SX-SEGMENT-HEADER-4.jpg);
+    background-size: cover;
+}
+
+.img-one {
+    background-image: url(../img/MY23-890-SMT-Stage.jpg);
+    background-size: cover;
+}
+
+.img-slider-right {
+    transition: margin-left 0.7s;
+    margin-left: 100%;
+}
+
+.img-slider {
+    transition: none;
+    margin-left: 0%;
+    z-index: -1;
+}
+
+
+.img {
+    margin-top: -155px;
+    height: 116vh;
+    width: 100%;
+    position: fixed;
+}
