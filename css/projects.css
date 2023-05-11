@@ -8,7 +8,6 @@
     border: 4px solid whitesmoke;
 }
 
-
 .top {
     margin-top: 27px;
 }
@@ -234,4 +233,9 @@ p {
 .carrito{
     background-image: url(../img/carrito.png);
     background-size: 200px;
+}
+.slider{
+    
+    background-image: url(../img/slider.webp);
+    background-size: 300px;
 }
