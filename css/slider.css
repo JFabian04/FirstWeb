@@ -1,66 +1,74 @@
-* {
+*{
     padding: 0;
     margin: 0;
 }
-
-/* body {
+body{
     overflow: hidden;
-} */
-
-.icon {
-    padding: 5px;
-    border-radius: 10px;
-    background-color: aliceblue;
-    color: rgb(255, 102, 0);
-    font-size: 2em;
-    position: absolute;
-    z-index: 1;
 }
 
-.icons {
-    position: absolute;
+.img-one{
+    background-image: url(/img/MY23-890-SMT-Stage.jpg);
+    background-size: cover;
+}
+
+.img-two{
+    background-image: url(/img/MY24-MX-SX-SEGMENT-HEADER-4.jpg);
+    background-size: cover;
+}
+
+.img-three{
+    background-image: url(/img/speed-racing-collection.jpg);
+    background-size: cover;
+}
+.img-content{
     display: flex;
     align-items: center;
+    width: 300%;
+    height: 98vh;
+}
+
+.img{
     width: 100%;
-    height: 100vh;
+    height: 98vh;
 }
 
-.fa-angles-right {
-    right: 0;
+.img-content-left{
+    transition: margin-left 2s;
+    margin-left: -100%;
+}
+
+.img-content-leftt{
+    transition: margin-left 2s;
+    margin-left: -200%;
 }
 
 
 
-.img-three {
-    background-image: url(../img/speed-racing-collection.jpg);
-    background-size: cover;
+.img-content-rigth{
+    transition: margin-left 1s;
+    margin-left: -200%;
 }
 
-.img-two {
-    background-image: url(../img/MY24-MX-SX-SEGMENT-HEADER-4.jpg);
-    background-size: cover;
+.img-content-rightt{
+    transition: margin-left 2s;
+    margin-left: -100%;
 }
 
-.img-one {
-    background-image: url(../img/MY23-890-SMT-Stage.jpg);
-    background-size: cover;
-}
 
-.img-slider-right {
-    transition: margin-left 0.7s;
-    margin-left: 100%;
-}
-
-.img-slider {
-    transition: none;
+.img-content-reverse{
+    transition: margin-left 1s;
     margin-left: 0%;
-    z-index: -1;
 }
-
-
-.img {
-    margin-top: -155px;
-    height: 116vh;
-    width: 100%;
-    position: fixed;
+.icon{
+    border-radius: 25px;
+    background-color: whitesmoke;
+    padding: 30px;
+    position: absolute;
+    font-size: 3em;
+}
+.fa-angles-right{
+    left: 96%;
+}
+.fa-angles-left{
+    left: 1%;
 }
