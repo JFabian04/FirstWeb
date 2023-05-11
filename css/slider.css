@@ -7,17 +7,17 @@ body{
 }
 
 .img-one{
-    background-image: url(/img/MY23-890-SMT-Stage.jpg);
+    background-image: url(../img/MY23-890-SMT-Stage.jpg);
     background-size: cover;
 }
 
 .img-two{
-    background-image: url(/img/MY24-MX-SX-SEGMENT-HEADER-4.jpg);
+    background-image: url(../img/MY24-MX-SX-SEGMENT-HEADER-4.jpg);
     background-size: cover;
 }
 
 .img-three{
-    background-image: url(/img/speed-racing-collection.jpg);
+    background-image: url(../img/speed-racing-collection.jpg);
     background-size: cover;
 }
 .img-content{
@@ -60,14 +60,14 @@ body{
     margin-left: 0%;
 }
 .icon{
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: whitesmoke;
-    padding: 30px;
+    padding: 20px;
     position: absolute;
-    font-size: 3em;
+    font-size: 1.3em;
 }
 .fa-angles-right{
-    left: 96%;
+    left: 95.5%;
 }
 .fa-angles-left{
     left: 1%;
