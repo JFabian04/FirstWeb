@@ -29,7 +29,7 @@ body{
 
 .img{
     width: 100%;
-    height: 98vh;
+    height: 100vh;
 }
 
 .img-content-left{
@@ -43,8 +43,7 @@ body{
 }
 
 
-
-.img-content-rigth{
+.img-content-right{
     transition: margin-left 1s;
     margin-left: -200%;
 }
