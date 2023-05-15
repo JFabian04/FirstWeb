@@ -226,6 +226,7 @@ for (let index = 0; index < iconCircle.length; index++) {
         if (index == 2) {
             console.log("TRES " + index)
             cont = 2
+            ind = 0
             if (iconCircle[1].classList.contains("icon-center")) {
                 iconCircle[1].classList.add("icon-up")
                 iconCircle[0].classList.remove("icon-up")

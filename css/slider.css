@@ -67,6 +67,11 @@ body{
     font-size: 1.5em;
     color: orangered;
 }
+
+.icon:active{
+    background-color: orangered;
+    color: whitesmoke;
+}
 .fa-angles-right{
     left: 95.5%;
 }
