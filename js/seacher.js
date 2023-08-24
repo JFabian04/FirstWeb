@@ -29,6 +29,8 @@ let buttonContent = document.querySelectorAll(".chat-content");
 let btnClose = document.getElementById("btn-close");
 let containerChat = document.getElementById("containerChat");
 let sliderChat = document.getElementById("sliderChat");
+let message = document.getElementById("message");
+let header = document.getElementById("header");
 
 chatShowBtn.addEventListener("click", function () {
     if (!chatShowBtn.classList.contains("btn-chat-hidden")) {
@@ -42,7 +44,12 @@ chatShowBtn.addEventListener("click", function () {
         containerChat.style.opacity = "1";
         containerChat.style.transition = "height 0.4s";
         containerChat.style.height = "400px";
-        sliderChat.style.height = "100px"
+        sliderChat.style.height = "115px";
+        sliderChat.style.opacity = "1";
+        sliderChat.style.transition = "all 0.5s";
+        message.style.opacity = "1";
+        message.style.transition = "all 0.2s";
+        header.style.height = "40px";
 
 
     } else {
@@ -57,33 +64,67 @@ chatShowBtn.addEventListener("click", function () {
 
         setTimeout(() => {
             containerChat.style.opacity = "0";
-            containerChat.style.transition = "all 0.5s";
+            containerChat.style.transition = "all 0.2s";
+            message.style.opacity = "0";
+            message.style.transition = "all 0.2s";
+            header.style.height = "0px";
+
         }, 100)
         sliderChat.style.height = "0px"
+        sliderChat.style.opacity = "0";
+        sliderChat.style.transition = "all 0.2s";
 
     }
     //SLIDER CHAT
-
-    let rowSlider = document.querySelectorAll(".row-slider");
-    for (let x = 0; x < rowSlider.length; x++) {
-        for (let i = 1; i < 3; i++) {
-            let slider = document.getElementById("slider" + i);
-            let marginLeft = 140;
-            rowSlider[x].addEventListener("click", function () {
-                if (x == 0) {
-                    console.log("START ", marginLeft);
-                    slider.style.marginLeft = "-" + marginLeft + "px";
-                    slider.style.transition = "margin-left 1s";
-                    marginLeft = marginLeft + 140;
-                    console.log("MEDIUM ", marginLeft);
-                } else if (x == 1) {
-                    console.log("END ", marginLeft);
-                    slider.style.marginLeft = 8+ "px";
-                    // marginLeft = marginLeft - 140;
-                    slider.style.transition = "margin-left 1s";
-                    // marginLeft = marginLeft + 140
-                }
-            })
-        }
+    let rowRight = document.getElementById("rowRight");
+    let rowLeft = document.getElementById("rowLeft");
+    let slider = document.getElementById("conatinSlider");
+    let contRight = 0;
+    let contLeft = 0;
+    let marginSize = 295;
+    let marg = -295;
+    if (contLeft == 0) {
+        rowLeft.style.opacity = "0";
     }
+    rowRight.addEventListener("click", function () {
+        rowLeft.style.opacity = "1";
+        contRight = contRight + 1;
+
+        if (contRight == 2) {
+            marg = -295
+            contLeft = 0;
+        }
+        if (contRight > 1) {
+            marginSize = 295
+            rowRight.style.opacity = "0";
+            marginSize = marginSize * contRight;
+        }
+        slider.style.marginLeft = "-" + marginSize + "px";
+        // slider.style.transition = "margin-left 0.7s";
+
+    })
+    rowLeft.addEventListener("click", function () {
+        rowRight.style.opacity = "1";
+        contLeft = contLeft + 1;
+        if (contRight == 1 && contLeft == 1) {
+            marg = 0;
+            contRight = 0;
+            rowLeft.style.opacity = "0";
+        }
+        if (contLeft >= 1) {
+            marginSize = 197.5;
+            if (contLeft == 2) {
+                marg = 0;
+                contRight = 0;
+                marginSize = 295;
+                rowLeft.style.opacity = "0";
+            }
+        }
+        if (contLeft > 1) {
+            contLeft = 0
+        }
+        slider.style.marginLeft = marg + "px";
+        contRight = 0;
+        marginSize = 295;
+    })
 })
