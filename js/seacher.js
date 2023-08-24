@@ -31,6 +31,7 @@ let containerChat = document.getElementById("containerChat");
 let sliderChat = document.getElementById("sliderChat");
 let message = document.getElementById("message");
 let header = document.getElementById("header");
+let scrollContainer = document.getElementById("scrollContainer");
 
 chatShowBtn.addEventListener("click", function () {
     if (!chatShowBtn.classList.contains("btn-chat-hidden")) {
