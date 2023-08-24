@@ -166,7 +166,7 @@
 .container-button-chat {
     position: fixed;
     bottom: 3%;
-    right: 1%;
+    right: 2%;
 }
 
 .btn-chat-show {
@@ -208,7 +208,6 @@
 }
 
 .container-chat {
-
     display: flex;
     align-items: start;
     width: 330px;
@@ -309,7 +308,20 @@
     background-color: rgb(45, 121, 202);
 
 }
-
+.btn-click{
+    cursor: pointer;
+    font-family: sans-serif;
+    width: 100%;
+    color: rgb(0, 44, 102);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid rgb(201, 201, 201);
+}
+.btn-click:hover{
+    background-color: rgba(135, 207, 235, 0.144);
+}
 .content-chat .fa-angle-left {
     top: 0%;
     left: 1%;
@@ -332,6 +344,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
     margin-top: 13px;
+    margin-bottom: 5px;
 }
 
 /* FOOTER */
