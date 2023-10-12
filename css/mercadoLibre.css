@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
 
 nav {
     position: relative;
@@ -66,4 +69,86 @@ nav {
 
 .item-nav input::placeholder {
     color: rgb(197, 197, 197);
+}
+
+
+/* containers show data  */
+.content {
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.carro {
+    box-shadow: 0px 0px 10px 2px rgb(223, 223, 223);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px auto;
+    width: max-content;
+    background-color: rgb(231, 226, 226);
+    overflow: hidden;
+    width: 300px;
+    border:unset;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.carro:hover {
+    box-shadow: unset;
+    border: 1px solid rgb(0, 106, 255);
+}
+
+.carro:hover .heart {
+    display: block;
+}
+
+.img-carro {
+    width: 100%;
+    height: 100%;
+}
+
+.div-img-carro {
+    width: 100%;
+}
+
+.div-info-carro {
+    background-color: white;
+    padding: 20px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h4-precio {
+    font-family: sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.h4-descripcion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.h4-ubicacion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.heart {
+    position: absolute;
+    right: 20px;
+    padding: 8px 8px 4px 8px;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 50%;
+    margin: 20px 0px;
+    display: none;
+}
+.icon-heart{
+    color: rgb(0, 106, 255);
 }

@@ -1,0 +1,1949 @@
+[
+    {
+        "productos": [
+            {
+                "id": 63993,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 12605.04,
+                "valor_total": 15000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 63994,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 22689.08,
+                "valor_total": 27000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28258,
+        "total": 42000
+    },
+    {
+        "productos": [
+            {
+                "id": 63997,
+                "cantidad": 1,
+                "impuesto_1": 0,
+                "iva_name": null,
+                "precio_base": 26000,
+                "valor_total": 26000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28261,
+        "total": 26000
+    },
+    {
+        "productos": [
+            {
+                "id": 64011,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 7310.9244,
+                "valor_total": 8700,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28270,
+        "total": 8700
+    },
+    {
+        "productos": [
+            {
+                "id": 64019,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 16218.49,
+                "valor_total": 19300,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28276,
+        "total": 19300
+    },
+    {
+        "productos": [
+            {
+                "id": 64024,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 10924.37,
+                "valor_total": 13000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28279,
+        "total": 13000
+    },
+    {
+        "productos": [
+            {
+                "id": 64088,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 24369.7479,
+                "valor_total": 29000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28305,
+        "total": 29000
+    },
+    {
+        "productos": [
+            {
+                "id": 64109,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 7310.92,
+                "valor_total": 17400,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64110,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 207142.86,
+                "valor_total": 246500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64111,
+                "cantidad": 5,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 25210.08,
+                "valor_total": 150000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64112,
+                "cantidad": 16,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 31932.77,
+                "valor_total": 608000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28309,
+        "total": 1021900
+    },
+    {
+        "productos": [
+            {
+                "id": 64113,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 31932.77,
+                "valor_total": 114000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28310,
+        "total": 114000
+    },
+    {
+        "productos": [
+            {
+                "id": 64118,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 25210.08,
+                "valor_total": 30000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28313,
+        "total": 30000
+    },
+    {
+        "productos": [
+            {
+                "id": 64119,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 7983.19,
+                "valor_total": 9500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28314,
+        "total": 9500
+    },
+    {
+        "productos": [
+            {
+                "id": 64120,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 11092.44,
+                "valor_total": 13200,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28315,
+        "total": 13200
+    },
+    {
+        "productos": [
+            {
+                "id": 64121,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 4789.92,
+                "valor_total": 5700,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28316,
+        "total": 5700
+    },
+    {
+        "productos": [
+            {
+                "id": 64134,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 4369.75,
+                "valor_total": 5200,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64135,
+                "cantidad": 6,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2521.01,
+                "valor_total": 17460,
+                "porcentaje_descuento": 3
+            },
+            {
+                "id": 64136,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 8403.36,
+                "valor_total": 10000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64137,
+                "cantidad": 14,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 16386.55,
+                "valor_total": 259349.93,
+                "porcentaje_descuento": 5
+            },
+            {
+                "id": 64138,
+                "cantidad": 31,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2689.08,
+                "valor_total": 96224.16,
+                "porcentaje_descuento": 3
+            },
+            {
+                "id": 64139,
+                "cantidad": 17,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2941.18,
+                "valor_total": 57715.07,
+                "porcentaje_descuento": 3
+            },
+            {
+                "id": 64140,
+                "cantidad": 25,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2521.01,
+                "valor_total": 72750.05,
+                "porcentaje_descuento": 3
+            },
+            {
+                "id": 64141,
+                "cantidad": 4,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 10420.17,
+                "valor_total": 48112.01,
+                "porcentaje_descuento": 3
+            },
+            {
+                "id": 64142,
+                "cantidad": 6,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 5210.08,
+                "valor_total": 36083.97,
+                "porcentaje_descuento": 3
+            }
+        ],
+        "id": 28327,
+        "total": 602895
+    },
+    {
+        "productos": [
+            {
+                "id": 63979,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 13445.38,
+                "valor_total": 32000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 63980,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 12184.87,
+                "valor_total": 14500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28250,
+        "total": 46500
+    },
+    {
+        "productos": [
+            {
+                "id": 63985,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 205882.35,
+                "valor_total": 245000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28252,
+        "total": 245000
+    },
+    {
+        "productos": [
+            {
+                "id": 63992,
+                "cantidad": 15,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 8319.33,
+                "valor_total": 148500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28257,
+        "total": 148500
+    },
+    {
+        "productos": [
+            {
+                "id": 63995,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 617647.06,
+                "valor_total": 735000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28259,
+        "total": 735000
+    },
+    {
+        "productos": [
+            {
+                "id": 63996,
+                "cantidad": 4,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 66386.5546,
+                "valor_total": 316000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28260,
+        "total": 316000
+    },
+    {
+        "productos": [
+            {
+                "id": 63999,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1680.67,
+                "valor_total": 6000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64000,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 17226.89,
+                "valor_total": 20500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28263,
+        "total": 26500
+    },
+    {
+        "productos": [
+            {
+                "id": 64007,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 27563.03,
+                "valor_total": 98400,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64008,
+                "cantidad": 20,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 8319.33,
+                "valor_total": 198000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28268,
+        "total": 296400
+    },
+    {
+        "productos": [
+            {
+                "id": 64013,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 6638.6554,
+                "valor_total": 7900,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64014,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 66386.5546,
+                "valor_total": 79000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64015,
+                "cantidad": 21,
+                "impuesto_1": 0,
+                "iva_name": "",
+                "precio_base": 6500,
+                "valor_total": 136500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28272,
+        "total": 223400
+    },
+    {
+        "productos": [
+            {
+                "id": 64020,
+                "cantidad": 50,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 378.15,
+                "valor_total": 22500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64021,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 52016.81,
+                "valor_total": 185700,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64022,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 111344.54,
+                "valor_total": 265000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28277,
+        "total": 473200
+    },
+    {
+        "productos": [
+            {
+                "id": 64025,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 235.29,
+                "valor_total": 560,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28280,
+        "total": 560
+    },
+    {
+        "productos": [
+            {
+                "id": 64030,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 7478.99,
+                "valor_total": 8900,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64031,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2100.84,
+                "valor_total": 2500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64032,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2184.87,
+                "valor_total": 5200,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64033,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2436.97,
+                "valor_total": 5800,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64034,
+                "cantidad": 11,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1638.66,
+                "valor_total": 21450,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64035,
+                "cantidad": 10,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1638.66,
+                "valor_total": 19500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28283,
+        "total": 63350
+    },
+    {
+        "productos": [
+            {
+                "id": 64045,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 4201.68,
+                "valor_total": 10000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64046,
+                "cantidad": 4,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2521.01,
+                "valor_total": 12000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64047,
+                "cantidad": 12,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 11092.44,
+                "valor_total": 158400,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64048,
+                "cantidad": 4,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1680.67,
+                "valor_total": 8000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28287,
+        "total": 188400
+    },
+    {
+        "productos": [
+            {
+                "id": 64049,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 25294.12,
+                "valor_total": 30100,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28288,
+        "total": 30100
+    },
+    {
+        "productos": [
+            {
+                "id": 64050,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 4117.65,
+                "valor_total": 4900,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28289,
+        "total": 4900
+    },
+    {
+        "productos": [
+            {
+                "id": 64051,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 30420.17,
+                "valor_total": 72400,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28290,
+        "total": 72400
+    },
+    {
+        "productos": [
+            {
+                "id": 64052,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 420.17,
+                "valor_total": 500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64053,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 16386.55,
+                "valor_total": 19500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64054,
+                "cantidad": 6,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 504.2,
+                "valor_total": 3600,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64055,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2521.01,
+                "valor_total": 3000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64056,
+                "cantidad": 6,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2268.91,
+                "valor_total": 16200,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64057,
+                "cantidad": 8,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 504.2,
+                "valor_total": 4800,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64058,
+                "cantidad": 6,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 756.3,
+                "valor_total": 5400,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64059,
+                "cantidad": 10,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 672.27,
+                "valor_total": 8000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64060,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 20756.3,
+                "valor_total": 24700,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64061,
+                "cantidad": 6,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 6302.52,
+                "valor_total": 45000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64062,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 5798.32,
+                "valor_total": 20700,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64063,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 4369.75,
+                "valor_total": 15600,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64064,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 12100.84,
+                "valor_total": 14400,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64065,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 6470.59,
+                "valor_total": 15400,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64066,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 25294.12,
+                "valor_total": 90300,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28291,
+        "total": 287100
+    },
+    {
+        "productos": [
+            {
+                "id": 64067,
+                "cantidad": 4,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 3529.4118,
+                "valor_total": 16800,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64068,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 10504.2017,
+                "valor_total": 12500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64069,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 10756.3025,
+                "valor_total": 12800,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28292,
+        "total": 42100
+    },
+    {
+        "productos": [
+            {
+                "id": 64071,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 15966.39,
+                "valor_total": 38000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28294,
+        "total": 38000
+    },
+    {
+        "productos": [
+            {
+                "id": 64075,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 15966.39,
+                "valor_total": 19000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28298,
+        "total": 19000
+    },
+    {
+        "productos": [
+            {
+                "id": 64078,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 105042.0168,
+                "valor_total": 125000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28300,
+        "total": 125000
+    },
+    {
+        "productos": [
+            {
+                "id": 64079,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 13445.38,
+                "valor_total": 16000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28301,
+        "total": 16000
+    },
+    {
+        "productos": [
+            {
+                "id": 64087,
+                "cantidad": 8,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 5042.0168,
+                "valor_total": 48000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28304,
+        "total": 48000
+    },
+    {
+        "productos": [
+            {
+                "id": 64098,
+                "cantidad": 13,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 84.03,
+                "valor_total": 1300,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64099,
+                "cantidad": 40,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 25.21,
+                "valor_total": 1200,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28307,
+        "total": 2500
+    },
+    {
+        "productos": [
+            {
+                "id": 64100,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 3697.48,
+                "valor_total": 4400,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64101,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1428.57,
+                "valor_total": 1700,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64102,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2521.01,
+                "valor_total": 9000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64103,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1428.57,
+                "valor_total": 1700,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64104,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1176.47,
+                "valor_total": 1400,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64105,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 6470.59,
+                "valor_total": 7700,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64106,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 8991.6,
+                "valor_total": 10700,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64107,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2100.84,
+                "valor_total": 2500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64108,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 7394.96,
+                "valor_total": 8800,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28308,
+        "total": 47900
+    },
+    {
+        "productos": [
+            {
+                "id": 64116,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 13025.21,
+                "valor_total": 15500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64117,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 108655.46,
+                "valor_total": 129300,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28312,
+        "total": 144800
+    },
+    {
+        "productos": [
+            {
+                "id": 64122,
+                "cantidad": 5,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 5042.02,
+                "valor_total": 30000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28317,
+        "total": 30000
+    },
+    {
+        "productos": [
+            {
+                "id": 64125,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 47058.82,
+                "valor_total": 56000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64126,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 54621.85,
+                "valor_total": 65000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64127,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 6302.52,
+                "valor_total": 7500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64128,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1932.77,
+                "valor_total": 2300,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28322,
+        "total": 130800
+    },
+    {
+        "productos": [
+            {
+                "id": 64129,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 525210.08,
+                "valor_total": 625000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28323,
+        "total": 625000
+    },
+    {
+        "productos": [
+            {
+                "id": 63978,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2100.84,
+                "valor_total": 7500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28249,
+        "total": 7500
+    },
+    {
+        "productos": [
+            {
+                "id": 63981,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "",
+                "precio_base": 8403.36,
+                "valor_total": 10000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 63982,
+                "cantidad": 20,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 420.17,
+                "valor_total": 10000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 63983,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 33193.28,
+                "valor_total": 39500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 63984,
+                "cantidad": 1,
+                "impuesto_1": 5,
+                "iva_name": "IVA",
+                "precio_base": 85714.29,
+                "valor_total": 90000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28251,
+        "total": 149500
+    },
+    {
+        "productos": [
+            {
+                "id": 63986,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 4369.75,
+                "valor_total": 10400,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 63987,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 7142.86,
+                "valor_total": 8500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28253,
+        "total": 18900
+    },
+    {
+        "productos": [
+            {
+                "id": 63988,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 17647.06,
+                "valor_total": 21000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 63989,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 30252.1,
+                "valor_total": 36000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28254,
+        "total": 57000
+    },
+    {
+        "productos": [
+            {
+                "id": 63990,
+                "cantidad": 12,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 336.13,
+                "valor_total": 4800,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28255,
+        "total": 4800
+    },
+    {
+        "productos": [
+            {
+                "id": 63991,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 25294.1176,
+                "valor_total": 90300,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28256,
+        "total": 90300
+    },
+    {
+        "productos": [
+            {
+                "id": 63998,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 178151.26,
+                "valor_total": 212000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28262,
+        "total": 212000
+    },
+    {
+        "productos": [
+            {
+                "id": 64001,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 11344.54,
+                "valor_total": 13500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64002,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 4285.71,
+                "valor_total": 10200,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28264,
+        "total": 23700
+    },
+    {
+        "productos": [
+            {
+                "id": 64003,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 8319.33,
+                "valor_total": 29700,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28265,
+        "total": 29700
+    },
+    {
+        "productos": [
+            {
+                "id": 64004,
+                "cantidad": 15,
+                "impuesto_1": 19,
+                "iva_name": "",
+                "precio_base": 126.05,
+                "valor_total": 2250,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64005,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 25294.12,
+                "valor_total": 60200,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28266,
+        "total": 62450
+    },
+    {
+        "productos": [
+            {
+                "id": 64006,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 18235.29,
+                "valor_total": 21700,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28267,
+        "total": 21700
+    },
+    {
+        "productos": [
+            {
+                "id": 64009,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 588.24,
+                "valor_total": 1400.02,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64010,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 60084.03,
+                "valor_total": 71500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28269,
+        "total": 72900
+    },
+    {
+        "productos": [
+            {
+                "id": 64012,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 7394.96,
+                "valor_total": 8800,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28271,
+        "total": 8800
+    },
+    {
+        "productos": [
+            {
+                "id": 64016,
+                "cantidad": 20,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 24369.75,
+                "valor_total": 580000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28273,
+        "total": 580000
+    },
+    {
+        "productos": [
+            {
+                "id": 64017,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 9243.7,
+                "valor_total": 22000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28274,
+        "total": 22000
+    },
+    {
+        "productos": [
+            {
+                "id": 64018,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 7563.03,
+                "valor_total": 9000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28275,
+        "total": 9000
+    },
+    {
+        "productos": [
+            {
+                "id": 64023,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 31092.44,
+                "valor_total": 37000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28278,
+        "total": 37000
+    },
+    {
+        "productos": [
+            {
+                "id": 64026,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 4621.85,
+                "valor_total": 5500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64027,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2521.01,
+                "valor_total": 3000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28281,
+        "total": 8500
+    },
+    {
+        "productos": [
+            {
+                "id": 64028,
+                "cantidad": 1,
+                "impuesto_1": 0,
+                "iva_name": null,
+                "precio_base": 22000,
+                "valor_total": 22000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64029,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 10504.2,
+                "valor_total": 12500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28282,
+        "total": 34500
+    },
+    {
+        "productos": [
+            {
+                "id": 64036,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 5462.18,
+                "valor_total": 6500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28284,
+        "total": 6500
+    },
+    {
+        "productos": [
+            {
+                "id": 64037,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 8655.46,
+                "valor_total": 10300,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28285,
+        "total": 10300
+    },
+    {
+        "productos": [
+            {
+                "id": 64038,
+                "cantidad": 15,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1260.5042,
+                "valor_total": 20700,
+                "porcentaje_descuento": 8
+            },
+            {
+                "id": 64039,
+                "cantidad": 25,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 840.3361,
+                "valor_total": 23000,
+                "porcentaje_descuento": 8
+            },
+            {
+                "id": 64040,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 47731.0924,
+                "valor_total": 52256,
+                "porcentaje_descuento": 8
+            },
+            {
+                "id": 64041,
+                "cantidad": 50,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 126.0504,
+                "valor_total": 6900,
+                "porcentaje_descuento": 8
+            },
+            {
+                "id": 64042,
+                "cantidad": 50,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 126.0504,
+                "valor_total": 6900,
+                "porcentaje_descuento": 8
+            },
+            {
+                "id": 64043,
+                "cantidad": 50,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1260.5042,
+                "valor_total": 69000,
+                "porcentaje_descuento": 8
+            },
+            {
+                "id": 64044,
+                "cantidad": 50,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 672.2689,
+                "valor_total": 36800,
+                "porcentaje_descuento": 8
+            }
+        ],
+        "id": 28286,
+        "total": 215556
+    },
+    {
+        "productos": [
+            {
+                "id": 64070,
+                "cantidad": 30,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 19747.8991,
+                "valor_total": 648600,
+                "porcentaje_descuento": 8
+            }
+        ],
+        "id": 28293,
+        "total": 648600
+    },
+    {
+        "productos": [
+            {
+                "id": 64072,
+                "cantidad": 14,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 6302.521,
+                "valor_total": 96600,
+                "porcentaje_descuento": 8
+            }
+        ],
+        "id": 28295,
+        "total": 96600
+    },
+    {
+        "productos": [
+            {
+                "id": 64073,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 8403.36,
+                "valor_total": 10000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28296,
+        "total": 10000
+    },
+    {
+        "productos": [
+            {
+                "id": 64074,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 3613.45,
+                "valor_total": 3956,
+                "porcentaje_descuento": 8
+            }
+        ],
+        "id": 28297,
+        "total": 3956
+    },
+    {
+        "productos": [
+            {
+                "id": 64076,
+                "cantidad": 6,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2100.84,
+                "valor_total": 15000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64077,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 125210.08,
+                "valor_total": 149000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28299,
+        "total": 164000
+    },
+    {
+        "productos": [
+            {
+                "id": 64080,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 756.3,
+                "valor_total": 900,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64081,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 3697.48,
+                "valor_total": 13200,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64082,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 5462.18,
+                "valor_total": 6500,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64083,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1680.67,
+                "valor_total": 2000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64084,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 672.27,
+                "valor_total": 800,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64085,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2857.14,
+                "valor_total": 3400,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28302,
+        "total": 26800
+    },
+    {
+        "productos": [
+            {
+                "id": 64086,
+                "cantidad": 6,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 3277.31,
+                "valor_total": 23400,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28303,
+        "total": 23400
+    },
+    {
+        "productos": [
+            {
+                "id": 64089,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2310.92,
+                "valor_total": 2749.99,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64090,
+                "cantidad": 5,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1596.64,
+                "valor_total": 9500.01,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64091,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1428.57,
+                "valor_total": 5099.99,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64092,
+                "cantidad": 3,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1176.47,
+                "valor_total": 4200,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64093,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 13445.38,
+                "valor_total": 16000,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64094,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 5462.18,
+                "valor_total": 12999.99,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64095,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 6470.59,
+                "valor_total": 7700,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64096,
+                "cantidad": 2,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2857.14,
+                "valor_total": 6799.99,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64097,
+                "cantidad": 12,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 672.27,
+                "valor_total": 9600.02,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28306,
+        "total": 74650
+    },
+    {
+        "productos": [
+            {
+                "id": 64114,
+                "cantidad": 10,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 15630.2521,
+                "valor_total": 171120,
+                "porcentaje_descuento": 8
+            },
+            {
+                "id": 64115,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 111176.4706,
+                "valor_total": 121716,
+                "porcentaje_descuento": 8
+            }
+        ],
+        "id": 28311,
+        "total": 292836
+    },
+    {
+        "productos": [
+            {
+                "id": 64123,
+                "cantidad": 1,
+                "impuesto_1": 0,
+                "iva_name": "",
+                "precio_base": 26700,
+                "valor_total": 26700,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28318,
+        "total": 26700
+    },
+    {
+        "productos": [
+            {
+                "id": 64124,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 1386554.6218,
+                "valor_total": 1650000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28321,
+        "total": 1650000
+    },
+    {
+        "productos": [
+            {
+                "id": 64130,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 7983.19,
+                "valor_total": 9500,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28324,
+        "total": 9500
+    },
+    {
+        "productos": [
+            {
+                "id": 64131,
+                "cantidad": 1,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 6638.66,
+                "valor_total": 7900,
+                "porcentaje_descuento": 0
+            },
+            {
+                "id": 64132,
+                "cantidad": 10,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 2773.11,
+                "valor_total": 33000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28325,
+        "total": 40900
+    },
+    {
+        "productos": [
+            {
+                "id": 64133,
+                "cantidad": 100,
+                "impuesto_1": 19,
+                "iva_name": "IVA",
+                "precio_base": 252.1,
+                "valor_total": 30000,
+                "porcentaje_descuento": 0
+            }
+        ],
+        "id": 28326,
+        "total": 30000
+    }
+]
