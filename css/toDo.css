@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(24, 24, 36);
+}
+.title{
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    float: left;
+}
+.container-img {
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    background-image: url(../img/todo-app-main/images/header-web.jpg);
+}
+
+.container-inputs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: absolute;
+    bottom: 10%;
+}
+
+.container-items {
+    box-shadow: 0px 2px 6px 1px hsl(0, 0%, 6%);
+    border-radius: 3px;
+    background-color: rgb(37, 39, 90);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-create {
+    color: rgb(154, 155, 175);
+    caret-color: white;
+    outline: none;
+    border: unset;
+    width: 90%;
+    background-color: transparent;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.title-todo {
+    font-size: 13px;
+    color: rgb(185, 186, 195);
+}
+.title-todo-checked{
+    color: rgb(116, 119, 148);
+    text-decoration: line-through;
+}
+
+.container-todo {
+    height: 50px;
+    gap: 20px;
+    border-bottom: 1px solid rgb(78, 80, 142);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(112, 123, 170);
+    border-radius: 50%;
+}
+
+.check-icon {
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(rgb(114, 221, 207), rgb(117, 21, 136));
+    opacity: 0;
+    font-size: 9px;
+    color: white;
+}
+
+.footer-items{
+    font-weight: bolder;
+    color: rgb(123, 124, 170);
+    font-size: 10px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template: 35px / 1fr  140px 1fr;
+}
+.container-activites{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.text-item{
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+.pointer-cursor{
+    padding: 5px;
+    cursor: pointer;
+}
