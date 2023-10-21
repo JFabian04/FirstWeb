@@ -149,7 +149,7 @@ sunIcon.addEventListener('click', function () {
     for (let i = 0; i < containerItems.length; i++) {
         containerItems[i].style.backgroundColor = "gainsboro"
     }
-    containerImg.style.backgroundImage = 'url(../img/todo_mentor/bg-desktop-light.jpg)';
+    containerImg.style.backgroundImage = 'url(./img/todo_mentor/bg-desktop-light.jpg)';
     body.style.backgroundColor = "whitesmoke"
 
     inputCreate.style.caretColor = 'black';
@@ -176,7 +176,7 @@ moonIcon.addEventListener('click', function () {
     }
 
     // containerTodo.classList.add('light-mode')
-    containerImg.style.backgroundImage = 'url(../img/todo_mentor/header-web.jpg)';
+    containerImg.style.backgroundImage = 'url(./img/todo_mentor/header-web.jpg)';
     body.style.backgroundColor = body.dataset.originalColor;
 
     // textItem.forEach(item => {
