@@ -243,3 +243,7 @@ p {
     background-image: url(../img/seacher_rep.jpg);
     background-size: 110px;
 }
+.toDo{
+    background-image: url(../img/todo_project.png);
+    background-size: cover;
+}
