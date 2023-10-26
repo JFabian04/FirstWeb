@@ -11,42 +11,43 @@
 
 <body>
 
-    <div class="container-img"></div>
+    <div class="container-img" id="containerImg"></div>
     <div class="container-inputs">
-        <h3 class="title">TODO</h3>
-        <div class="container-items">
-            <input type="text" placeholder="Create a new todo..." class="input-create">
-        </div>
-        <div class="container-items">
-            <div class="container-todo">
-                <div class="check" id="check"><i class="fa-solid fa-check check-icon check-item"></i></div>
-                <div class="title-todo">Tareas de JS</div>
+        <div class="container-all">
+            <div class="header">
+                <h2 class="title">TODO</h2>
+                <img src="img/todo_mentor/icon-sun.svg" alt="" class="icon-theme" id="sunIcon" srcset="">
+                <img src="img/todo_mentor/icon-moon.svg" alt="" class="icon-theme fa-moon" id="moonIcon" srcset="">
             </div>
-            <div class="container-todo">
-                <div class="check" id="check"><i class="fa-solid fa-check check-icon check-item"></i></div>
-                <div class="title-todo">Tareas de JS</div>
+            <div class="container-items">
+                <input type="text" placeholder="Create a new todo..." class="input-create" id="inputCreate">
             </div>
-            <div class="container-todo">
-                <div class="check" id="check"><i class="fa-solid fa-check check-icon check-item"></i></div>
-                <div class="title-todo">Tareas de JS</div>
-            </div>
-            <div class="footer-items">
-                <div class="items-left">
-                    <p class="text-item pointer-cursor"> Items left</p>
-                </div>
-                <div class="container-activites">
-                    <div class="all pointer-cursor">All</div>
-                    <div class="active pointer-cursor">Active</div>
-                    <div class="completed pointer-cursor">Completed</div>
-                </div>
-                <div class="clear-completed">
-                    <p class="text-item pointer-cursor"> Clear Completed</p>
+            <div class="container-items">
+                <div class="container-tasks" id="containerTasks">
 
+                </div>
+                <div class="footer-items">
+                    <div class="items-left">
+                        <div class="text-item" style="display: flex; justify-content: center;">
+                            <div class="" id="itemsLeft" style="margin-right: 5px;">0</div>Items left
+                        </div>
+                    </div>
+                    <div class="container-activites">
+                        <div class="all pointer-cursor section" id="all">All</div>
+                        <div class="active pointer-cursor section" id="active">Active</div>
+                        <div class="completed pointer-cursor section" id="completed">Completed</div>
+                    </div>
+                    <div class="clear-completed">
+                        <p class="text-item pointer-cursor" id="clearCompleted"> Clear Completed</p>
+                    </div>
                 </div>
             </div>
         </div>
-
-
+    </div>
+    <!-- Clone -->
+    <div class="container-todo" id="containerTodo">
+        <div class="check"><i class="fa-solid fa-check check-icon check-item"></i></div>
+        <div class="title-todo" id="titleTodo"></div>
     </div>
     <script src="js/toDo.js"></script>
 </body>
