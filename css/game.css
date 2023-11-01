@@ -1,20 +1,50 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+body{
+    overflow: hidden;
 }
 
-body{
-    height: 100vh;
+.container-ground {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    height: 47vw;
+}
+.ground{
+    width: 100vw;
+    height: 47vw;
+}
+
+.ground-one {
     background-image: url('../img/game/esceneario/intro.avif');
     background-size: cover;
 }
 
+.ground-two {
+    background-image: url('../img/game/esceneario/dos.avif');
+    background-size: cover;
+}
 
-#jackBlack{
-    position: absolute;
-    top: 62%;
-    left: 30%;
+.ground-three {
+    background-image: url('../img/game/esceneario/cuatro.avif');
+    background-size: cover;
+}
+
+.container-jack {
+    /* background-image: url('../img/game/Espera2-original.webp'); */
+    background-image: url('../img/game/Parada-original.webp');
+    background-size: cover;
+    width: 20vw;
+    height: 16vw;
+    position: fixed;
+    top: 21vw;
+    left: 15vw;
+    /* right: 60vw; */
+    /* background-color: rebeccapurple; */
     transition: margin-top 0.3s;
-    /* transition: margin-right 0.3s; */
+    /* transition: margin-left 0.1s; */
+    /* transition: transform 0.3s ease;  */
 }
