@@ -15,7 +15,7 @@ let rightPress = false;
 let upPress = false;
 
 window.addEventListener('keyup', function () {
-    jackBlack.style.backgroundImage = "url('../img/game/Parada-original.webp')"
+    jackBlack.style.backgroundImage = "url('./img/game/Parada-original.webp')"
     clearTimeout(timeSet);
     timeWaitJack(timeToSleep)
     rightPress = false;
@@ -38,7 +38,7 @@ window.addEventListener('keydown', function (event) {
             jackBlack.style.marginLeft = position + 'vw';
             max = true;
         }
-        jackBlack.style.backgroundImage = "url('../img/game/jCaminandoV2-original.webp')"
+        jackBlack.style.backgroundImage = "url('./img/game/jCaminandoV2-original.webp')"
     }
     if (event.key == 'ArrowLeft') {
         jackBlack.style.transform = 'scaleX(-1)';
@@ -56,7 +56,7 @@ window.addEventListener('keydown', function (event) {
                     position = limit
                 }
             }
-            jackBlack.style.backgroundImage = "url('../img/game/jCaminandoV2-original.webp')"
+            jackBlack.style.backgroundImage = "url('./img/game/jCaminandoV2-original.webp')"
             cont--
         }
     }
@@ -73,7 +73,7 @@ window.addEventListener('keydown', function (event) {
     }
 
     if (event.key == 'x') {
-        jackBlack.style.backgroundImage = "url('../img/game/Ataque-original.webp')"
+        jackBlack.style.backgroundImage = "url('./img/game/Ataque-original.webp')"
     }
 
     if (rightPress && upPress) {
@@ -93,7 +93,7 @@ window.addEventListener('keydown', function (event) {
         ground.style.transition = 'margin-left 1s';
         rightPress = false;
         upPress = false;
-        jackBlack.style.backgroundImage = "url('../img/game/jCaminandoV2-original.webp')"
+        jackBlack.style.backgroundImage = "url('./img/game/jCaminandoV2-original.webp')"
     }
     setTimeout(() => {
         ground.style.transition = 'margin-left 0s';
@@ -103,7 +103,7 @@ window.addEventListener('keydown', function (event) {
 
 function timeWaitJack(timeWait) {
     timeSet = setTimeout(() => {
-        jackBlack.style.backgroundImage = "url('../img/game/Espera2-original.webp')"
+        jackBlack.style.backgroundImage = "url('./img/game/Espera2-original.webp')"
     }, timeWait)
 }
 timeWaitJack(timeToSleep);
