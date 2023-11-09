@@ -3,7 +3,8 @@
     margin: 0;
     /* box-sizing: border-box; */
 }
-body{
+
+body {
     overflow: hidden;
 }
 
@@ -13,12 +14,13 @@ body{
     width: max-content;
     height: 47vw;
 }
-.ground{
+
+.ground {
     width: 100vw;
     height: 47vw;
 }
 
-.ground-one {
+/* .ground-one {
     background-image: url('../img/game/esceneario/intro.avif');
     background-size: cover;
 }
@@ -31,7 +33,7 @@ body{
 .ground-three {
     background-image: url('../img/game/esceneario/cuatro.avif');
     background-size: cover;
-}
+} */
 
 .container-jack {
     /* background-image: url('../img/game/Espera2-original.webp'); */
@@ -45,6 +47,4 @@ body{
     /* right: 60vw; */
     /* background-color: rebeccapurple; */
     transition: margin-top 0.3s;
-    /* transition: margin-left 0.1s; */
-    /* transition: transform 0.3s ease;  */
 }
