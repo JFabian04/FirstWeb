@@ -48,7 +48,7 @@ function keyPress() {
         console.log(cont);
         if (cont > 115 && cont < 213) {
             xd = true
-        } else if(cont < 115 && cont > 113 || cont > 213 && cont < 215) {
+        } else if (cont < 115 && cont > 113 || cont > 213 && cont < 215) {
             xd = false
             jackBlack.style.marginTop = "0px"
         }
@@ -128,4 +128,52 @@ function timeWaitJack(timeWait) {
     }, timeWait)
 }
 timeWaitJack(timeToSleep);
+
+
+const enemy = document.getElementById('enemy');
+
+// let scale = 1;
+let contInterval = 0;
+let marginEnemy = 50;
+let bool = false;
+
+setInterval(function () {
+    console.log(enemy.getBoundingClientRect().left);
+    if (contInterval >= 54) {
+        bool = false
+    }
+    if (contInterval == 0) {
+        bool = true
+    }
+
+    if (bool == true) {
+
+        enemy.style.transform = 'scaleX(1)';
+        enemy.style.marginLeft = contInterval * marginEnemy + 'px';
+        enemy.style.transition = 'margin-left 0.3s';
+        contInterval++
+        // console.log('A: ', cont);
+        // console.log('B: ', contInterval - 10);
+        if (cont == contInterval - 10) {
+            alert('xd')
+        }
+    }
+
+    if (bool == false) {
+        enemy.style.transform = 'scaleX(-1)';
+        enemy.style.marginLeft = contInterval * marginEnemy + 'px';
+        enemy.style.transition = 'margin-left 0.3s';
+        contInterval--
+        // console.log('A: ', cont + 5);
+        // console.log('B: ', contInterval);
+        if (cont  == contInterval) {
+            // alert(':v')
+        }
+    }
+
+
+
+
+}, 100);
+
 

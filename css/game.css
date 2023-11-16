@@ -48,3 +48,15 @@ body {
     /* background-color: rebeccapurple; */
     transition: margin-top 0.3s;
 }
+
+.container-enemy {
+    background-image: url('../img/game/bala-01.gif');
+    background-size: cover;
+    position: fixed;
+    top: 26vw;
+    left: -100px;
+    width: 10vw;
+    height: 10vh;
+    /* background-color: rebeccapurple; */
+    /* transition: all 3s; */
+}
