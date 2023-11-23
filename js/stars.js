@@ -24,11 +24,11 @@ button.addEventListener('click', function () {
         }
         let calc = Math.abs(value.value - indice);
 
-        if (calc < 0.5 && calc > 0) {
+        if (calc < 0.8 && calc > 0.3) {
             stars[indice + 1].classList.remove('fa-star');
             stars[indice + 1].classList.add('fa-star-half-stroke');
         }
-        if (calc >= 0.5 && calc < 1) {
+        if (calc >= 0.8 && calc < 1.3) {
             stars[indice + 1].classList.add('fa-star');
             if (stars[indice + 1].classList.contains('fa-star-half-stroke')) {
                 stars[indice + 1].classList.remove('fa-star-half-stroke')
