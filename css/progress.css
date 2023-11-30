@@ -72,3 +72,7 @@
 #btnProgress:hover{
     background-color:rgb(19, 4, 178);
 }
+
+#title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
