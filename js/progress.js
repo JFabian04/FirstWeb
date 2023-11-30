@@ -20,7 +20,7 @@ btnProgress.addEventListener('click', function () {
 
     let value = 0;
     for (let i = 0; i < progressInput.length; i++) {
-        if (progressInput[i].value == 'NaN' || progressInput[i].value == '') {
+        if (!progressInput[i].value) {
             progressInput[i].value = 0
         }else{
             value += parseInt(progressInput[i].value)
