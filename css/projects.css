@@ -247,3 +247,8 @@ p {
     background-image: url(../img/todo_project.png);
     background-size: cover;
 }
+
+.progress{
+    background-image: url(../img/barras_progreso.jpg);
+    background-size: cover;
+}
